@@ -1,10 +1,11 @@
 {
- "version": 2026111013,
- "generatedAt": "2026-11-10T11:30:51Z",
+ "version": 2026111016,
+ "generatedAt": "2026-11-10T16:17:52Z",
  "season": "2026-27",
  "superLigWeek": 11,
  "files": {
-  "teams.json": "961c6f50fbe91ddd0a1466bf8d25e2948d2b39167660f686577e3c925c56439b",
-  "season-tr-superlig.json": "bc373e9111ea55aa22e4430e70d95ebf577eaa698c2d07cde65e8d3d8b8b38a8"
+  "teams.json": "0a8344ee4c234e645358d87824023437a6e1669892ed654cf2dde8109d14ab18",
+  "season-tr-superlig.json": "53a8377aae15b2aa3426e4974adb58991b3286e46b5654781ef8bb0724b148e5",
+  "squads.json": "e2386d4d1917d65c93faeec33733b25b9510ede6d4c74a4affd32cc25b584736"
  }
 }

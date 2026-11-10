@@ -67,7 +67,10 @@ else:
     raise SystemExit("could not pack fixtures")
 remaining = [dict(home=h, away=a, round=week + 1 + i) for i, wk in enumerate(weeks) for h, a in wk]
 now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
-snap = dict(isSample=False, updatedAt=now.strftime("%Y-%m-%dT%H:%M:%SZ"),
+# "season" tells the app a new season apart from the old one; "officialWeek" is the last week
+# covered by official results (results a user types in later never move it).
+SEASON = "2026-27"
+snap = dict(isSample=False, season=SEASON, officialWeek=week, updatedAt=now.strftime("%Y-%m-%dT%H:%M:%SZ"),
             state=dict(competitionID="tr-superlig", week=week, table=list(table.values()), playedResults=played, remainingFixtures=remaining))
 json.dump(snap, open(sys.argv[2], "w"), ensure_ascii=False, indent=1)
 print("attempt", attempt, "week", week, len(played), "played", len(remaining), "remaining")

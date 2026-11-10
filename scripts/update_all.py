@@ -2,9 +2,10 @@
 
 Downloads every source, runs the club fit (build_catalog.py, Süper Lig + 1. Lig joint fit),
 the national-team fit (national_fit.py), the Süper Lig snapshot (make_season.py) and the
-goal calibration (calibrate_goals.py), validates the result and only then writes
+goal calibration (calibrate_goals.py) and the club squads from Wikipedia (squads_wiki.py),
+validates the result and only then writes
 
-    <out>/teams.json, <out>/season-tr-superlig.json, <out>/manifest.json
+    <out>/teams.json, <out>/season-tr-superlig.json, <out>/squads.json, <out>/manifest.json
 
 Nothing is written (exit code 1) if a download, a step or a validation fails.
 If the data did not change (apart from the snapshot timestamp) nothing is written either.
@@ -12,6 +13,10 @@ If the data did not change (apart from the snapshot timestamp) nothing is writte
     python3 update_all.py --out <folder>            # e.g. the data repository root
     python3 update_all.py --out out --app            # also copy the two JSON files into Simulig/Data
     python3 update_all.py --work w --offline         # reuse files already downloaded into w
+    python3 update_all.py --squads-only --app        # only refresh squads.json (+ manifest hash)
+
+If the squads step fails (a Wikipedia page changed beyond what the parser handles) the previous
+<out>/squads.json is kept and the rest of the update goes ahead; --strict-squads makes it fatal.
 
 The previous teams.json is the base for everything that is not refitted (legends, competition
 names, colours) and for the national-team scale: --base, else <out>/teams.json, else the app copy.
@@ -28,7 +33,7 @@ FD_LEAGUES = ["E0", "SP1", "I1", "D1", "F1", "N1", "P1", "T1"]
 FD_URL = "https://www.football-data.co.uk/mmz4281/{season}/{code}.csv"
 INTL_URL = "https://raw.githubusercontent.com/martj42/international_results/master/results.csv"
 UA = "SimuligDataPipeline/1.0 (weekly data update script)"
-FILES = ["teams.json", "season-tr-superlig.json"]
+FILES = ["teams.json", "season-tr-superlig.json", "squads.json"]
 EXPECTED = {"tr-superlig": 18, "tr-1lig": 20, "eng-premier": 20, "esp-laliga": 20, "ita-seriea": 20,
             "ger-bundesliga": 18, "fra-ligue1": 18, "ned-eredivisie": 18, "por-liga": 18,
             "national": 52, "legends": 50}
@@ -158,6 +163,34 @@ def validate(teams, season, base):
     return errs
 
 
+def squads_step(work, teams_path, stage, out, a, logf):
+    """Build <stage>/squads.json; on failure reuse <out>/squads.json unless --strict-squads."""
+    Q = os.path.join(stage, "squads.json")
+    args = [os.path.join(work, "wiki-squads"), teams_path, Q] + (["--offline"] if a.offline else [])
+    try:
+        o = run("squads_wiki.py", args, logf)
+        log("\n".join(l for l in o.splitlines() if l.startswith(("squads:", "  ", "wrote")) and "INVALID" not in l))
+    except Fail as e:
+        prev = os.path.join(out, "squads.json")
+        if a.strict_squads or not os.path.exists(prev): raise
+        log(f"  WARNING: {e}; keeping the previous squads.json")
+        shutil.copy(prev, Q)
+
+
+def validate_squads(path, teams):
+    import squads_wiki
+    clubs = [t["id"] for t in teams["teams"] if t["kind"] == "club"]
+    return ["squads: " + e for e in squads_wiki.validate(json.load(open(path, encoding="utf-8")), clubs)]
+
+
+def write_out(stage, out, version):
+    """Stamp the data version into teams.json and squads.json in the stage folder."""
+    for n in ("teams.json", "squads.json"):
+        p = os.path.join(stage, n)
+        d = json.load(open(p, encoding="utf-8")); d["version"] = version
+        json.dump(d, open(p, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+
+
 def sha256(path):
     return hashlib.sha256(open(path, "rb").read()).hexdigest()
 
@@ -167,10 +200,13 @@ def main():
     ap.add_argument("--out", default=os.path.join(HERE, "output"), help="folder for teams.json, season-tr-superlig.json, manifest.json")
     ap.add_argument("--work", help="working folder for downloads and logs (default: a temporary folder)")
     ap.add_argument("--base", help="previous teams.json (default: <out>/teams.json, else the app copy)")
-    ap.add_argument("--app", action="store_true", help=f"also write teams.json and season-tr-superlig.json into {APP_DIR}")
+    ap.add_argument("--app", action="store_true", help=f"also write teams.json, season-tr-superlig.json and squads.json into {APP_DIR}")
     ap.add_argument("--app-dir", default=APP_DIR, help="app bundle data folder used with --app")
     ap.add_argument("--offline", action="store_true", help="do not download; use the files already in --work")
     ap.add_argument("--strict-wiki", action="store_true", help="fail instead of using the fallback 1. Lig table")
+    ap.add_argument("--strict-squads", action="store_true", help="fail instead of keeping the previous squads.json")
+    ap.add_argument("--squads-only", action="store_true",
+                    help="only rebuild squads.json and its manifest entry; teams.json, the season file and the version stay as they are")
     ap.add_argument("--force", action="store_true", help="write even if nothing changed")
     a = ap.parse_args()
 
@@ -183,6 +219,8 @@ def main():
     shutil.rmtree(stage, ignore_errors=True); os.makedirs(stage)
     log(f"work {work}\nbase {base}\nout  {out}")
     logf = open(os.path.join(work, "update.log"), "w", encoding="utf-8")
+    if a.squads_only:
+        return squads_only(a, out, work, stage, logf)
     try:
         if not a.offline:
             log("\n== downloads"); fetch_all(work)
@@ -199,7 +237,9 @@ def main():
         o = run("make_season.py", [os.path.join(work, "T1_2627.csv"), S], logf); log(o.splitlines()[0])
         o = run("calibrate_goals.py", [work, T], logf); log(o.rstrip())
         teams, season = json.load(open(T, encoding="utf-8")), json.load(open(S, encoding="utf-8"))
+        squads_step(work, T, stage, out, a, logf)
         errs = validate(teams, season, json.load(open(base, encoding="utf-8")))
+        errs += validate_squads(os.path.join(stage, "squads.json"), teams)
         if errs:
             for e in errs: log("  INVALID:", e)
             raise Fail(f"{len(errs)} validation errors")
@@ -215,10 +255,11 @@ def main():
         p = os.path.join(out, name)
         if not os.path.exists(p): return False
         old, new = json.load(open(p, encoding="utf-8")), json.load(open(os.path.join(stage, name), encoding="utf-8"))
-        for d in (old, new): d.pop("updatedAt", None); d.pop("version", None)
+        for d in (old, new): d.pop("updatedAt", None); d.pop("version", None); d.pop("generatedAt", None)
         return old == new
     if not a.force and all(same(n) for n in FILES) and os.path.exists(os.path.join(out, "manifest.json")):
         log("no data changes; nothing written")
+        write_out(stage, out, json.load(open(os.path.join(out, "manifest.json")))["version"])  # for --app
     else:
         now = dt.datetime.now(dt.timezone.utc).replace(microsecond=0)
         version = int(now.strftime("%Y%m%d%H"))
@@ -228,10 +269,8 @@ def main():
                 version = max(version, int(json.load(open(mp))["version"]) + 1)
             except (ValueError, KeyError, TypeError):
                 pass
-        # The catalog carries the data version so the app can compare its bundled copy with a download.
-        tp = os.path.join(stage, "teams.json")
-        cat = json.load(open(tp, encoding="utf-8")); cat["version"] = version
-        json.dump(cat, open(tp, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+        # The catalog (and squads.json) carry the data version so the app can compare its bundled copy with a download.
+        write_out(stage, out, version)
         manifest = dict(version=version, generatedAt=now.strftime("%Y-%m-%dT%H:%M:%SZ"), season=SEASON,
                         superLigWeek=season["state"]["week"], files={n: sha256(os.path.join(stage, n)) for n in FILES})
         json.dump(manifest, open(os.path.join(stage, "manifest.json"), "w"), indent=1)
@@ -246,6 +285,43 @@ def main():
         for n in FILES:
             shutil.copy(os.path.join(stage, n), os.path.join(a.app_dir, n))
         log(f"copied {', '.join(FILES)} into {a.app_dir}")
+    if not a.work: shutil.rmtree(work, ignore_errors=True)
+    return 0
+
+
+def squads_only(a, out, work, stage, logf):
+    """Rebuild squads.json alone. The manifest keeps its version (teams.json must match it), only the
+    squads.json entry changes; squads.json gets that same version."""
+    mp = os.path.join(out, "manifest.json")
+    T = os.path.join(out, "teams.json")
+    if not (os.path.exists(mp) and os.path.exists(T)): raise SystemExit(f"--squads-only needs {mp} and {T}")
+    manifest = json.load(open(mp, encoding="utf-8"))
+    teams = json.load(open(T, encoding="utf-8"))
+    try:
+        a.strict_squads = True
+        squads_step(work, T, stage, out, a, logf)
+        errs = validate_squads(os.path.join(stage, "squads.json"), teams)
+        if errs:
+            for e in errs: log("  INVALID:", e)
+            raise Fail(f"{len(errs)} validation errors")
+    except Fail as e:
+        log(f"\nFAILED: {e}\nnothing written (log: {os.path.join(work, 'update.log')})")
+        return 1
+    finally:
+        logf.close()
+    Q = os.path.join(stage, "squads.json")
+    d = json.load(open(Q, encoding="utf-8")); d["version"] = manifest["version"]
+    json.dump(d, open(Q, "w", encoding="utf-8"), ensure_ascii=False, indent=1)
+    manifest["files"]["squads.json"] = sha256(Q)
+    json.dump(manifest, open(os.path.join(stage, "manifest.json"), "w"), indent=1)
+    for n in ("squads.json", "manifest.json"):
+        shutil.copy(os.path.join(stage, n), os.path.join(out, n + ".tmp"))
+        os.replace(os.path.join(out, n + ".tmp"), os.path.join(out, n))
+    log(f"wrote {out}: squads.json, manifest.json (version {manifest['version']} kept)")
+    if a.app:
+        if not os.path.isdir(a.app_dir): raise SystemExit(f"--app: {a.app_dir} not found")
+        shutil.copy(Q, os.path.join(a.app_dir, "squads.json"))
+        log(f"copied squads.json into {a.app_dir}")
     if not a.work: shutil.rmtree(work, ignore_errors=True)
     return 0
 

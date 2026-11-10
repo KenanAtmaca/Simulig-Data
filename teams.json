@@ -1,9 +1,9 @@
 {
- "version": 2026111013,
+ "version": 2026111016,
  "competitions": [
   {
    "id": "tr-superlig",
-   "name": "Trendyol Süper Lig",
+   "name": "Süper Lig",
    "short": "Süper Lig",
    "format": "league",
    "teams": 18,
@@ -18,7 +18,7 @@
   },
   {
    "id": "tr-1lig",
-   "name": "Trendyol 1. Lig",
+   "name": "1. Lig",
    "short": "1. Lig",
    "format": "league",
    "teams": 20,
@@ -3262,7 +3262,7 @@
   {
    "id": "leg-gs-2000",
    "name": "Galatasaray 1999-00",
-   "short": "GS",
+   "short": "GS00",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3276,7 +3276,7 @@
   {
    "id": "leg-gs-1993",
    "name": "Galatasaray 1992-93",
-   "short": "GS",
+   "short": "GS93",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3291,7 +3291,7 @@
   {
    "id": "leg-gs-1988",
    "name": "Galatasaray 1987-88",
-   "short": "GS",
+   "short": "GS88",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3306,7 +3306,7 @@
   {
    "id": "leg-fb-1989",
    "name": "Fenerbahçe 1988-89",
-   "short": "FB",
+   "short": "FB89",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3321,7 +3321,7 @@
   {
    "id": "leg-fb-2001",
    "name": "Fenerbahçe 2000-01",
-   "short": "FB",
+   "short": "FB01",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3336,7 +3336,7 @@
   {
    "id": "leg-fb-2008",
    "name": "Fenerbahçe 2007-08",
-   "short": "FB",
+   "short": "FB08",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3351,7 +3351,7 @@
   {
    "id": "leg-fb-2011",
    "name": "Fenerbahçe 2010-11",
-   "short": "FB",
+   "short": "FB11",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3366,7 +3366,7 @@
   {
    "id": "leg-bjk-1992",
    "name": "Beşiktaş 1991-92",
-   "short": "BJK",
+   "short": "BJK92",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3381,7 +3381,7 @@
   {
    "id": "leg-bjk-2003",
    "name": "Beşiktaş 2002-03",
-   "short": "BJK",
+   "short": "BJK03",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3396,7 +3396,7 @@
   {
    "id": "leg-bjk-2017",
    "name": "Beşiktaş 2016-17",
-   "short": "BJK",
+   "short": "BJK17",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3411,7 +3411,7 @@
   {
    "id": "leg-ts-1980",
    "name": "Trabzonspor 1979-80",
-   "short": "TS",
+   "short": "TS80",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3426,7 +3426,7 @@
   {
    "id": "leg-ts-1984",
    "name": "Trabzonspor 1983-84",
-   "short": "TS",
+   "short": "TS84",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3441,7 +3441,7 @@
   {
    "id": "leg-brs-2010",
    "name": "Bursaspor 2009-10",
-   "short": "BRS",
+   "short": "BRS10",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3456,7 +3456,7 @@
   {
    "id": "leg-tur-2002",
    "name": "Türkiye 2002",
-   "short": "TÜR",
+   "short": "TÜR02",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3470,7 +3470,7 @@
   {
    "id": "leg-tur-2008",
    "name": "Türkiye 2008",
-   "short": "TÜR",
+   "short": "TÜR08",
    "country": "TR",
    "competition": "legends",
    "kind": "legend",
@@ -3485,7 +3485,7 @@
   {
    "id": "leg-bar-2011",
    "name": "Barcelona 2010-11",
-   "short": "BAR",
+   "short": "BAR11",
    "country": "ES",
    "competition": "legends",
    "kind": "legend",
@@ -3499,7 +3499,7 @@
   {
    "id": "leg-bar-2009",
    "name": "Barcelona 2008-09",
-   "short": "BAR",
+   "short": "BAR09",
    "country": "ES",
    "competition": "legends",
    "kind": "legend",
@@ -3514,7 +3514,7 @@
   {
    "id": "leg-bar-2015",
    "name": "Barcelona 2014-15",
-   "short": "BAR",
+   "short": "BAR15",
    "country": "ES",
    "competition": "legends",
    "kind": "legend",
@@ -3529,7 +3529,7 @@
   {
    "id": "leg-rma-1960",
    "name": "Real Madrid 1959-60",
-   "short": "RMA",
+   "short": "RMA60",
    "country": "ES",
    "competition": "legends",
    "kind": "legend",
@@ -3544,7 +3544,7 @@
   {
    "id": "leg-rma-2002",
    "name": "Real Madrid 2001-02",
-   "short": "RMA",
+   "short": "RMA02",
    "country": "ES",
    "competition": "legends",
    "kind": "legend",
@@ -3559,7 +3559,7 @@
   {
    "id": "leg-rma-2017",
    "name": "Real Madrid 2016-17",
-   "short": "RMA",
+   "short": "RMA17",
    "country": "ES",
    "competition": "legends",
    "kind": "legend",
@@ -3574,7 +3574,7 @@
   {
    "id": "leg-mil-1989",
    "name": "Milan 1988-89",
-   "short": "MIL",
+   "short": "MIL89",
    "country": "IT",
    "competition": "legends",
    "kind": "legend",
@@ -3589,7 +3589,7 @@
   {
    "id": "leg-mil-1994",
    "name": "Milan 1993-94",
-   "short": "MIL",
+   "short": "MIL94",
    "country": "IT",
    "competition": "legends",
    "kind": "legend",
@@ -3604,7 +3604,7 @@
   {
    "id": "leg-int-2010",
    "name": "Inter 2009-10",
-   "short": "INT",
+   "short": "INT10",
    "country": "IT",
    "competition": "legends",
    "kind": "legend",
@@ -3619,7 +3619,7 @@
   {
    "id": "leg-juv-1996",
    "name": "Juventus 1995-96",
-   "short": "JUV",
+   "short": "JUV96",
    "country": "IT",
    "competition": "legends",
    "kind": "legend",
@@ -3634,7 +3634,7 @@
   {
    "id": "leg-mun-1999",
    "name": "Manchester United 1998-99",
-   "short": "MUN",
+   "short": "MUN99",
    "country": "GB",
    "competition": "legends",
    "kind": "legend",
@@ -3649,7 +3649,7 @@
   {
    "id": "leg-mun-2008",
    "name": "Manchester United 2007-08",
-   "short": "MUN",
+   "short": "MUN08",
    "country": "GB",
    "competition": "legends",
    "kind": "legend",
@@ -3664,7 +3664,7 @@
   {
    "id": "leg-ars-2004",
    "name": "Arsenal 2003-04",
-   "short": "ARS",
+   "short": "ARS04",
    "country": "GB",
    "competition": "legends",
    "kind": "legend",
@@ -3679,7 +3679,7 @@
   {
    "id": "leg-che-2005",
    "name": "Chelsea 2004-05",
-   "short": "CHE",
+   "short": "CHE05",
    "country": "GB",
    "competition": "legends",
    "kind": "legend",
@@ -3694,7 +3694,7 @@
   {
    "id": "leg-liv-2020",
    "name": "Liverpool 2019-20",
-   "short": "LIV",
+   "short": "LIV20",
    "country": "GB",
    "competition": "legends",
    "kind": "legend",
@@ -3709,7 +3709,7 @@
   {
    "id": "leg-mci-2023",
    "name": "Manchester City 2022-23",
-   "short": "MCI",
+   "short": "MCI23",
    "country": "GB",
    "competition": "legends",
    "kind": "legend",
@@ -3724,7 +3724,7 @@
   {
    "id": "leg-bay-2013",
    "name": "Bayern München 2012-13",
-   "short": "BAY",
+   "short": "BAY13",
    "country": "DE",
    "competition": "legends",
    "kind": "legend",
@@ -3739,7 +3739,7 @@
   {
    "id": "leg-bay-2020",
    "name": "Bayern München 2019-20",
-   "short": "BAY",
+   "short": "BAY20",
    "country": "DE",
    "competition": "legends",
    "kind": "legend",
@@ -3754,7 +3754,7 @@
   {
    "id": "leg-bvb-1997",
    "name": "Borussia Dortmund 1996-97",
-   "short": "BVB",
+   "short": "BVB97",
    "country": "DE",
    "competition": "legends",
    "kind": "legend",
@@ -3769,7 +3769,7 @@
   {
    "id": "leg-aja-1972",
    "name": "Ajax 1971-72",
-   "short": "AJA",
+   "short": "AJA72",
    "country": "NL",
    "competition": "legends",
    "kind": "legend",
@@ -3784,7 +3784,7 @@
   {
    "id": "leg-aja-1995",
    "name": "Ajax 1994-95",
-   "short": "AJA",
+   "short": "AJA95",
    "country": "NL",
    "competition": "legends",
    "kind": "legend",
@@ -3799,7 +3799,7 @@
   {
    "id": "leg-fcp-2004",
    "name": "Porto 2003-04",
-   "short": "FCP",
+   "short": "FCP04",
    "country": "PT",
    "competition": "legends",
    "kind": "legend",
@@ -3814,7 +3814,7 @@
   {
    "id": "leg-bra-1970",
    "name": "Brezilya 1970",
-   "short": "BRA",
+   "short": "BRA70",
    "country": "BR",
    "competition": "legends",
    "kind": "legend",
@@ -3829,7 +3829,7 @@
   {
    "id": "leg-bra-2002",
    "name": "Brezilya 2002",
-   "short": "BRA",
+   "short": "BRA02",
    "country": "BR",
    "competition": "legends",
    "kind": "legend",
@@ -3844,7 +3844,7 @@
   {
    "id": "leg-ned-1974",
    "name": "Hollanda 1974",
-   "short": "NED",
+   "short": "NED74",
    "country": "NL",
    "competition": "legends",
    "kind": "legend",
@@ -3859,7 +3859,7 @@
   {
    "id": "leg-hun-1954",
    "name": "Macaristan 1954",
-   "short": "HUN",
+   "short": "HUN54",
    "country": "HU",
    "competition": "legends",
    "kind": "legend",
@@ -3874,7 +3874,7 @@
   {
    "id": "leg-arg-1986",
    "name": "Arjantin 1986",
-   "short": "ARG",
+   "short": "ARG86",
    "country": "AR",
    "competition": "legends",
    "kind": "legend",
@@ -3889,7 +3889,7 @@
   {
    "id": "leg-arg-2022",
    "name": "Arjantin 2022",
-   "short": "ARG",
+   "short": "ARG22",
    "country": "AR",
    "competition": "legends",
    "kind": "legend",
@@ -3904,7 +3904,7 @@
   {
    "id": "leg-frg-1990",
    "name": "Batı Almanya 1990",
-   "short": "FRG",
+   "short": "FRG90",
    "country": "DE",
    "competition": "legends",
    "kind": "legend",
@@ -3919,7 +3919,7 @@
   {
    "id": "leg-ger-2014",
    "name": "Almanya 2014",
-   "short": "GER",
+   "short": "GER14",
    "country": "DE",
    "competition": "legends",
    "kind": "legend",
@@ -3934,7 +3934,7 @@
   {
    "id": "leg-fra-1998",
    "name": "Fransa 1998",
-   "short": "FRA",
+   "short": "FRA98",
    "country": "FR",
    "competition": "legends",
    "kind": "legend",
@@ -3949,7 +3949,7 @@
   {
    "id": "leg-fra-2018",
    "name": "Fransa 2018",
-   "short": "FRA",
+   "short": "FRA18",
    "country": "FR",
    "competition": "legends",
    "kind": "legend",
@@ -3964,7 +3964,7 @@
   {
    "id": "leg-ita-2006",
    "name": "İtalya 2006",
-   "short": "ITA",
+   "short": "ITA06",
    "country": "IT",
    "competition": "legends",
    "kind": "legend",
@@ -3979,7 +3979,7 @@
   {
    "id": "leg-esp-2010",
    "name": "İspanya 2010",
-   "short": "ESP",
+   "short": "ESP10",
    "country": "ES",
    "competition": "legends",
    "kind": "legend",
@@ -3994,7 +3994,7 @@
   {
    "id": "leg-gre-2004",
    "name": "Yunanistan 2004",
-   "short": "GRE",
+   "short": "GRE04",
    "country": "GR",
    "competition": "legends",
    "kind": "legend",

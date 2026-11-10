@@ -40,7 +40,7 @@ jobs:
 
       - name: Commit and push if the data changed
         run: |
-          if [ -z "$(git status --porcelain -- teams.json season-tr-superlig.json manifest.json)" ]; then
+          if [ -z "$(git status --porcelain -- teams.json season-tr-superlig.json squads.json manifest.json)" ]; then
             echo "No data changes."
             exit 0
           fi
@@ -48,6 +48,6 @@ jobs:
           VERSION=$(python -c "import json; print(json.load(open('manifest.json'))['version'])")
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add teams.json season-tr-superlig.json manifest.json
+          git add teams.json season-tr-superlig.json squads.json manifest.json
           git commit -m "Veri güncellemesi ${VERSION} (Süper Lig ${WEEK}. hafta)"
           git push

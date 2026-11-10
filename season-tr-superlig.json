@@ -1,6 +1,8 @@
 {
  "isSample": false,
- "updatedAt": "2026-11-10T11:30:51Z",
+ "season": "2026-27",
+ "officialWeek": 11,
+ "updatedAt": "2026-11-10T16:15:41Z",
  "state": {
   "competitionID": "tr-superlig",
   "week": 11,
