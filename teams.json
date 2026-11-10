@@ -1,0 +1,4010 @@
+{
+ "version": 2026111013,
+ "competitions": [
+  {
+   "id": "tr-superlig",
+   "name": "Trendyol Süper Lig",
+   "short": "Süper Lig",
+   "format": "league",
+   "teams": 18,
+   "tiebreak": [
+    "pts",
+    "h2hPts",
+    "h2hGD",
+    "gd",
+    "gf"
+   ],
+   "goalFactor": 1.048
+  },
+  {
+   "id": "tr-1lig",
+   "name": "Trendyol 1. Lig",
+   "short": "1. Lig",
+   "format": "league",
+   "teams": 20,
+   "tiebreak": [
+    "pts",
+    "h2hPts",
+    "h2hGD",
+    "gd",
+    "gf"
+   ],
+   "goalFactor": 1.039
+  },
+  {
+   "id": "eng-premier",
+   "name": "Premier League",
+   "short": "İngiltere",
+   "format": "league",
+   "teams": 20,
+   "goalFactor": 1.068,
+   "tiebreak": [
+    "pts",
+    "gd",
+    "gf",
+    "h2hPts",
+    "h2hGF"
+   ]
+  },
+  {
+   "id": "esp-laliga",
+   "name": "La Liga",
+   "short": "İspanya",
+   "format": "league",
+   "teams": 20,
+   "goalFactor": 1.081,
+   "tiebreak": [
+    "pts",
+    "h2hPts",
+    "h2hGD",
+    "gd",
+    "gf"
+   ]
+  },
+  {
+   "id": "ita-seriea",
+   "name": "Serie A",
+   "short": "İtalya",
+   "format": "league",
+   "teams": 20,
+   "goalFactor": 1.011,
+   "tiebreak": [
+    "pts",
+    "h2hPts",
+    "h2hGD",
+    "gd",
+    "gf"
+   ]
+  },
+  {
+   "id": "ger-bundesliga",
+   "name": "Bundesliga",
+   "short": "Almanya",
+   "format": "league",
+   "teams": 18,
+   "goalFactor": 1.243,
+   "tiebreak": [
+    "pts",
+    "gd",
+    "gf",
+    "h2hPts",
+    "h2hGF"
+   ]
+  },
+  {
+   "id": "fra-ligue1",
+   "name": "Ligue 1",
+   "short": "Fransa",
+   "format": "league",
+   "teams": 18,
+   "goalFactor": 1.095,
+   "tiebreak": [
+    "pts",
+    "gd",
+    "gf",
+    "h2hPts",
+    "h2hGD"
+   ]
+  },
+  {
+   "id": "ned-eredivisie",
+   "name": "Eredivisie",
+   "short": "Hollanda",
+   "format": "league",
+   "teams": 18,
+   "goalFactor": 1.298,
+   "tiebreak": [
+    "pts",
+    "gd",
+    "gf",
+    "h2hPts",
+    "h2hGF"
+   ]
+  },
+  {
+   "id": "por-liga",
+   "name": "Liga Portugal",
+   "short": "Portekiz",
+   "format": "league",
+   "teams": 18,
+   "goalFactor": 1.018,
+   "tiebreak": [
+    "pts",
+    "h2hPts",
+    "h2hGD",
+    "h2hGF",
+    "gd",
+    "gf"
+   ]
+  },
+  {
+   "id": "national",
+   "name": "Milli Takımlar",
+   "short": "Milli",
+   "format": "national"
+  },
+  {
+   "id": "legends",
+   "name": "Efsane Takımlar",
+   "short": "Efsaneler",
+   "format": "legends"
+  }
+ ],
+ "teams": [
+  {
+   "id": "tr-aln",
+   "name": "Alanyaspor",
+   "short": "ALN",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 64,
+   "defence": 66,
+   "colors": [
+    "#F39200",
+    "#00843D"
+   ]
+  },
+  {
+   "id": "tr-amd",
+   "name": "Amedspor",
+   "short": "AMD",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 75,
+   "defence": 69,
+   "colors": [
+    "#00843D",
+    "#E30613"
+   ]
+  },
+  {
+   "id": "tr-bjk",
+   "name": "Beşiktaş",
+   "short": "BJK",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 75,
+   "defence": 74,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr-ibfk",
+   "name": "Başakşehir",
+   "short": "İBFK",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 74,
+   "defence": 71,
+   "colors": [
+    "#E35205",
+    "#002855"
+   ]
+  },
+  {
+   "id": "tr-cor",
+   "name": "Çorum FK",
+   "short": "ÇOR",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 67,
+   "defence": 68,
+   "colors": [
+    "#E30613",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr-erz",
+   "name": "Erzurumspor",
+   "short": "ERZ",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 67,
+   "defence": 71,
+   "colors": [
+    "#0055A4",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr-eyp",
+   "name": "Eyüpspor",
+   "short": "EYP",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 58,
+   "defence": 61,
+   "colors": [
+    "#6A1B9A",
+    "#FFD600"
+   ]
+  },
+  {
+   "id": "tr-fb",
+   "name": "Fenerbahçe",
+   "short": "FB",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 80,
+   "defence": 71,
+   "colors": [
+    "#0E1E5B",
+    "#FFED00"
+   ]
+  },
+  {
+   "id": "tr-gs",
+   "name": "Galatasaray",
+   "short": "GS",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 81,
+   "defence": 74,
+   "colors": [
+    "#A90432",
+    "#FDB912"
+   ]
+  },
+  {
+   "id": "tr-gfk",
+   "name": "Gaziantep FK",
+   "short": "GFK",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 63,
+   "defence": 63,
+   "colors": [
+    "#D71920",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr-gb",
+   "name": "Gençlerbirliği",
+   "short": "GB",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 63,
+   "defence": 65,
+   "colors": [
+    "#E30613",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr-goz",
+   "name": "Göztepe",
+   "short": "GÖZ",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 70,
+   "defence": 70,
+   "colors": [
+    "#FFD100",
+    "#E30613"
+   ]
+  },
+  {
+   "id": "tr-kas",
+   "name": "Kasımpaşa",
+   "short": "KAS",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 65,
+   "defence": 70,
+   "colors": [
+    "#1B3C8C",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr-koc",
+   "name": "Kocaelispor",
+   "short": "KOC",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 59,
+   "defence": 74,
+   "colors": [
+    "#00843D",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr-kon",
+   "name": "Konyaspor",
+   "short": "KON",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 63,
+   "defence": 69,
+   "colors": [
+    "#00843D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr-riz",
+   "name": "Rizespor",
+   "short": "RİZ",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 69,
+   "defence": 66,
+   "colors": [
+    "#00843D",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "tr-sam",
+   "name": "Samsunspor",
+   "short": "SAM",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 67,
+   "defence": 64,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr-ts",
+   "name": "Trabzonspor",
+   "short": "TS",
+   "country": "TR",
+   "competition": "tr-superlig",
+   "kind": "club",
+   "attack": 76,
+   "defence": 72,
+   "colors": [
+    "#6D1A36",
+    "#5BC2E7"
+   ]
+  },
+  {
+   "id": "eng-ars",
+   "name": "Arsenal",
+   "short": "ARS",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 89,
+   "defence": 97,
+   "colors": [
+    "#EF0107",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-avl",
+   "name": "Aston Villa",
+   "short": "AVL",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 87,
+   "defence": 82,
+   "colors": [
+    "#670E36",
+    "#95BFE5"
+   ]
+  },
+  {
+   "id": "eng-bou",
+   "name": "Bournemouth",
+   "short": "BOU",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 88,
+   "defence": 86,
+   "colors": [
+    "#DA291C",
+    "#111111"
+   ]
+  },
+  {
+   "id": "eng-bre",
+   "name": "Brentford",
+   "short": "BRE",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 85,
+   "defence": 84,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-bha",
+   "name": "Brighton",
+   "short": "BHA",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 89,
+   "defence": 88,
+   "colors": [
+    "#0057B8",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-che",
+   "name": "Chelsea",
+   "short": "CHE",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 86,
+   "defence": 82,
+   "colors": [
+    "#034694",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-cov",
+   "name": "Coventry City",
+   "short": "COV",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 78,
+   "defence": 79,
+   "colors": [
+    "#59CBE8",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-cry",
+   "name": "Crystal Palace",
+   "short": "CRY",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 80,
+   "defence": 78,
+   "colors": [
+    "#1B458F",
+    "#C4122E"
+   ]
+  },
+  {
+   "id": "eng-eve",
+   "name": "Everton",
+   "short": "EVE",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 82,
+   "defence": 84,
+   "colors": [
+    "#003399",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-ful",
+   "name": "Fulham",
+   "short": "FUL",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 80,
+   "defence": 86,
+   "colors": [
+    "#FFFFFF",
+    "#111111"
+   ]
+  },
+  {
+   "id": "eng-hul",
+   "name": "Hull City",
+   "short": "HUL",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 76,
+   "defence": 84,
+   "colors": [
+    "#F5A12D",
+    "#111111"
+   ]
+  },
+  {
+   "id": "eng-ips",
+   "name": "Ipswich Town",
+   "short": "IPS",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 84,
+   "defence": 76,
+   "colors": [
+    "#3A64A3",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-lee",
+   "name": "Leeds United",
+   "short": "LEE",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 82,
+   "defence": 86,
+   "colors": [
+    "#FFFFFF",
+    "#1D428A"
+   ]
+  },
+  {
+   "id": "eng-liv",
+   "name": "Liverpool",
+   "short": "LIV",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 88,
+   "defence": 85,
+   "colors": [
+    "#C8102E",
+    "#F6EB61"
+   ]
+  },
+  {
+   "id": "eng-mci",
+   "name": "Manchester City",
+   "short": "MCI",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 93,
+   "defence": 90,
+   "colors": [
+    "#6CABDD",
+    "#1C2C5B"
+   ]
+  },
+  {
+   "id": "eng-mun",
+   "name": "Manchester United",
+   "short": "MUN",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 90,
+   "defence": 82,
+   "colors": [
+    "#DA291C",
+    "#FBE122"
+   ]
+  },
+  {
+   "id": "eng-new",
+   "name": "Newcastle United",
+   "short": "NEW",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 83,
+   "defence": 81,
+   "colors": [
+    "#241F20",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-nfo",
+   "name": "Nottingham Forest",
+   "short": "NFO",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 84,
+   "defence": 87,
+   "colors": [
+    "#DD0000",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-sun",
+   "name": "Sunderland",
+   "short": "SUN",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 81,
+   "defence": 83,
+   "colors": [
+    "#EB172B",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "eng-tot",
+   "name": "Tottenham",
+   "short": "TOT",
+   "country": "GB",
+   "competition": "eng-premier",
+   "kind": "club",
+   "attack": 80,
+   "defence": 84,
+   "colors": [
+    "#FFFFFF",
+    "#132257"
+   ]
+  },
+  {
+   "id": "esp-ala",
+   "name": "Alavés",
+   "short": "ALA",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 77,
+   "defence": 78,
+   "colors": [
+    "#0761AF",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-ath",
+   "name": "Athletic Bilbao",
+   "short": "ATH",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 79,
+   "defence": 80,
+   "colors": [
+    "#EE2523",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-atm",
+   "name": "Atlético Madrid",
+   "short": "ATM",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 85,
+   "defence": 85,
+   "colors": [
+    "#CB3524",
+    "#272E61"
+   ]
+  },
+  {
+   "id": "esp-bar",
+   "name": "Barcelona",
+   "short": "BAR",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 97,
+   "defence": 87,
+   "colors": [
+    "#A50044",
+    "#004D98"
+   ]
+  },
+  {
+   "id": "esp-bet",
+   "name": "Real Betis",
+   "short": "BET",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 84,
+   "defence": 80,
+   "colors": [
+    "#00954C",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-cel",
+   "name": "Celta Vigo",
+   "short": "CEL",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 77,
+   "defence": 83,
+   "colors": [
+    "#8AC3EE",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-elc",
+   "name": "Elche",
+   "short": "ELC",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 78,
+   "defence": 77,
+   "colors": [
+    "#05642C",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-esp",
+   "name": "Espanyol",
+   "short": "ESP",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 73,
+   "defence": 81,
+   "colors": [
+    "#007FC8",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-get",
+   "name": "Getafe",
+   "short": "GET",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 67,
+   "defence": 85,
+   "colors": [
+    "#005999",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-dep",
+   "name": "Deportivo La Coruña",
+   "short": "DEP",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 76,
+   "defence": 81,
+   "colors": [
+    "#0067B1",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-lev",
+   "name": "Levante",
+   "short": "LEV",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 79,
+   "defence": 75,
+   "colors": [
+    "#B4053F",
+    "#004D98"
+   ]
+  },
+  {
+   "id": "esp-mal",
+   "name": "Málaga",
+   "short": "MAL",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 70,
+   "defence": 73,
+   "colors": [
+    "#0080C8",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-osa",
+   "name": "Osasuna",
+   "short": "OSA",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 77,
+   "defence": 77,
+   "colors": [
+    "#D91A21",
+    "#0A346F"
+   ]
+  },
+  {
+   "id": "esp-rma",
+   "name": "Real Madrid",
+   "short": "RMA",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 92,
+   "defence": 90,
+   "colors": [
+    "#FFFFFF",
+    "#FEBE10"
+   ]
+  },
+  {
+   "id": "esp-rac",
+   "name": "Racing Santander",
+   "short": "RAC",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 80,
+   "defence": 68,
+   "colors": [
+    "#00843D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-sev",
+   "name": "Sevilla",
+   "short": "SEV",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 77,
+   "defence": 78,
+   "colors": [
+    "#FFFFFF",
+    "#D81E05"
+   ]
+  },
+  {
+   "id": "esp-rso",
+   "name": "Real Sociedad",
+   "short": "RSO",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 84,
+   "defence": 75,
+   "colors": [
+    "#0067B1",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "esp-val",
+   "name": "Valencia",
+   "short": "VAL",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 75,
+   "defence": 79,
+   "colors": [
+    "#FFFFFF",
+    "#EE3524"
+   ]
+  },
+  {
+   "id": "esp-ray",
+   "name": "Rayo Vallecano",
+   "short": "RAY",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 77,
+   "defence": 80,
+   "colors": [
+    "#FFFFFF",
+    "#E53027"
+   ]
+  },
+  {
+   "id": "esp-vil",
+   "name": "Villarreal",
+   "short": "VIL",
+   "country": "ES",
+   "competition": "esp-laliga",
+   "kind": "club",
+   "attack": 87,
+   "defence": 82,
+   "colors": [
+    "#FFE667",
+    "#005187"
+   ]
+  },
+  {
+   "id": "ita-ata",
+   "name": "Atalanta",
+   "short": "ATA",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 80,
+   "defence": 80,
+   "colors": [
+    "#1E71B8",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ita-bol",
+   "name": "Bologna",
+   "short": "BOL",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 80,
+   "defence": 80,
+   "colors": [
+    "#1A2F48",
+    "#A21C26"
+   ]
+  },
+  {
+   "id": "ita-cag",
+   "name": "Cagliari",
+   "short": "CAG",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 74,
+   "defence": 77,
+   "colors": [
+    "#B01028",
+    "#002350"
+   ]
+  },
+  {
+   "id": "ita-com",
+   "name": "Como",
+   "short": "COM",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 84,
+   "defence": 88,
+   "colors": [
+    "#003DA5",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ita-fio",
+   "name": "Fiorentina",
+   "short": "FIO",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 78,
+   "defence": 77,
+   "colors": [
+    "#482E92",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ita-fro",
+   "name": "Frosinone",
+   "short": "FRO",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 86,
+   "defence": 72,
+   "colors": [
+    "#FFD200",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "ita-gen",
+   "name": "Genoa",
+   "short": "GEN",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 73,
+   "defence": 80,
+   "colors": [
+    "#A71930",
+    "#002E5D"
+   ]
+  },
+  {
+   "id": "ita-int",
+   "name": "Inter",
+   "short": "INT",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 94,
+   "defence": 86,
+   "colors": [
+    "#0068A8",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ita-juv",
+   "name": "Juventus",
+   "short": "JUV",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 82,
+   "defence": 88,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ita-laz",
+   "name": "Lazio",
+   "short": "LAZ",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 79,
+   "defence": 83,
+   "colors": [
+    "#87D8F7",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ita-lec",
+   "name": "Lecce",
+   "short": "LEC",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 70,
+   "defence": 76,
+   "colors": [
+    "#FFD200",
+    "#E30613"
+   ]
+  },
+  {
+   "id": "ita-mil",
+   "name": "Milan",
+   "short": "MIL",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 82,
+   "defence": 83,
+   "colors": [
+    "#FB090B",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ita-mon",
+   "name": "Monza",
+   "short": "MON",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 80,
+   "defence": 72,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ita-nap",
+   "name": "Napoli",
+   "short": "NAP",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 83,
+   "defence": 85,
+   "colors": [
+    "#12A0D7",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ita-par",
+   "name": "Parma",
+   "short": "PAR",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 67,
+   "defence": 78,
+   "colors": [
+    "#FFD200",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "ita-rom",
+   "name": "Roma",
+   "short": "ROM",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 89,
+   "defence": 86,
+   "colors": [
+    "#8E1F2F",
+    "#F0BC42"
+   ]
+  },
+  {
+   "id": "ita-sas",
+   "name": "Sassuolo",
+   "short": "SAS",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 78,
+   "defence": 74,
+   "colors": [
+    "#00A752",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ita-tor",
+   "name": "Torino",
+   "short": "TOR",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 76,
+   "defence": 75,
+   "colors": [
+    "#8A1E03",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ita-udi",
+   "name": "Udinese",
+   "short": "UDI",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 76,
+   "defence": 75,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ita-ven",
+   "name": "Venezia",
+   "short": "VEN",
+   "country": "IT",
+   "competition": "ita-seriea",
+   "kind": "club",
+   "attack": 76,
+   "defence": 73,
+   "colors": [
+    "#111111",
+    "#F15A22"
+   ]
+  },
+  {
+   "id": "ger-fca",
+   "name": "Augsburg",
+   "short": "FCA",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 79,
+   "defence": 74,
+   "colors": [
+    "#BA3733",
+    "#46714D"
+   ]
+  },
+  {
+   "id": "ger-bay",
+   "name": "Bayern München",
+   "short": "BAY",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 97,
+   "defence": 88,
+   "colors": [
+    "#DC052D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-bvb",
+   "name": "Borussia Dortmund",
+   "short": "BVB",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 82,
+   "defence": 89,
+   "colors": [
+    "#FDE100",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ger-sge",
+   "name": "Eintracht Frankfurt",
+   "short": "SGE",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 80,
+   "defence": 74,
+   "colors": [
+    "#E1000F",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ger-elv",
+   "name": "Elversberg",
+   "short": "ELV",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 79,
+   "defence": 74,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-koe",
+   "name": "Köln",
+   "short": "KOE",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 75,
+   "defence": 76,
+   "colors": [
+    "#ED1C24",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-scf",
+   "name": "Freiburg",
+   "short": "SCF",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 79,
+   "defence": 81,
+   "colors": [
+    "#E30613",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ger-hsv",
+   "name": "Hamburg",
+   "short": "HSV",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 72,
+   "defence": 77,
+   "colors": [
+    "#0A3F86",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-tsg",
+   "name": "Hoffenheim",
+   "short": "TSG",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 82,
+   "defence": 78,
+   "colors": [
+    "#1961B5",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-b04",
+   "name": "Bayer Leverkusen",
+   "short": "B04",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 84,
+   "defence": 80,
+   "colors": [
+    "#E32221",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ger-bmg",
+   "name": "Mönchengladbach",
+   "short": "BMG",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 75,
+   "defence": 76,
+   "colors": [
+    "#111111",
+    "#00A651"
+   ]
+  },
+  {
+   "id": "ger-m05",
+   "name": "Mainz",
+   "short": "M05",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 78,
+   "defence": 78,
+   "colors": [
+    "#C3141E",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-scp",
+   "name": "Paderborn",
+   "short": "PAD",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 70,
+   "defence": 78,
+   "colors": [
+    "#0055A4",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ger-rbl",
+   "name": "RB Leipzig",
+   "short": "RBL",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 86,
+   "defence": 81,
+   "colors": [
+    "#DD0741",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-s04",
+   "name": "Schalke 04",
+   "short": "S04",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 67,
+   "defence": 78,
+   "colors": [
+    "#004D9D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-vfb",
+   "name": "Stuttgart",
+   "short": "VFB",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 85,
+   "defence": 79,
+   "colors": [
+    "#FFFFFF",
+    "#E32219"
+   ]
+  },
+  {
+   "id": "ger-fcu",
+   "name": "Union Berlin",
+   "short": "FCU",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 71,
+   "defence": 76,
+   "colors": [
+    "#EB1923",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ger-svw",
+   "name": "Werder Bremen",
+   "short": "SVW",
+   "country": "DE",
+   "competition": "ger-bundesliga",
+   "kind": "club",
+   "attack": 74,
+   "defence": 79,
+   "colors": [
+    "#1D9053",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "fra-sco",
+   "name": "Angers",
+   "short": "SCO",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 65,
+   "defence": 71,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "fra-aux",
+   "name": "Auxerre",
+   "short": "AUX",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 69,
+   "defence": 72,
+   "colors": [
+    "#FFFFFF",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "fra-sb29",
+   "name": "Brest",
+   "short": "BRE",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 75,
+   "defence": 73,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "fra-hac",
+   "name": "Le Havre",
+   "short": "HAC",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 69,
+   "defence": 72,
+   "colors": [
+    "#5EB6E4",
+    "#1A2B4C"
+   ]
+  },
+  {
+   "id": "fra-lem",
+   "name": "Le Mans",
+   "short": "LMN",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 71,
+   "defence": 68,
+   "colors": [
+    "#E30613",
+    "#FFD200"
+   ]
+  },
+  {
+   "id": "fra-rcl",
+   "name": "Lens",
+   "short": "RCL",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 81,
+   "defence": 77,
+   "colors": [
+    "#FFD200",
+    "#E30613"
+   ]
+  },
+  {
+   "id": "fra-los",
+   "name": "Lille",
+   "short": "LOS",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 73,
+   "defence": 81,
+   "colors": [
+    "#E01E13",
+    "#1A2B4C"
+   ]
+  },
+  {
+   "id": "fra-fcl",
+   "name": "Lorient",
+   "short": "FCL",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 71,
+   "defence": 77,
+   "colors": [
+    "#F58113",
+    "#111111"
+   ]
+  },
+  {
+   "id": "fra-ol",
+   "name": "Lyon",
+   "short": "OL",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 76,
+   "defence": 79,
+   "colors": [
+    "#FFFFFF",
+    "#DA001A"
+   ]
+  },
+  {
+   "id": "fra-om",
+   "name": "Marseille",
+   "short": "OM",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 80,
+   "defence": 72,
+   "colors": [
+    "#2FAEE0",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "fra-asm",
+   "name": "Monaco",
+   "short": "ASM",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 77,
+   "defence": 74,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "fra-ogcn",
+   "name": "Nice",
+   "short": "NIC",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 70,
+   "defence": 71,
+   "colors": [
+    "#E30613",
+    "#111111"
+   ]
+  },
+  {
+   "id": "fra-pfc",
+   "name": "Paris FC",
+   "short": "PFC",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 76,
+   "defence": 78,
+   "colors": [
+    "#1A2B4C",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "fra-psg",
+   "name": "Paris Saint-Germain",
+   "short": "PSG",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 85,
+   "defence": 83,
+   "colors": [
+    "#004170",
+    "#DA291C"
+   ]
+  },
+  {
+   "id": "fra-srfc",
+   "name": "Rennes",
+   "short": "REN",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 81,
+   "defence": 69,
+   "colors": [
+    "#E30613",
+    "#111111"
+   ]
+  },
+  {
+   "id": "fra-rcsa",
+   "name": "Strasbourg",
+   "short": "STR",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 78,
+   "defence": 72,
+   "colors": [
+    "#0095DA",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "fra-tfc",
+   "name": "Toulouse",
+   "short": "TFC",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 75,
+   "defence": 76,
+   "colors": [
+    "#6A1B9A",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "fra-est",
+   "name": "Troyes",
+   "short": "TRO",
+   "country": "FR",
+   "competition": "fra-ligue1",
+   "kind": "club",
+   "attack": 66,
+   "defence": 72,
+   "colors": [
+    "#0055A4",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-az",
+   "name": "AZ Alkmaar",
+   "short": "AZ",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 74,
+   "defence": 75,
+   "colors": [
+    "#DB0021",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-aja",
+   "name": "Ajax",
+   "short": "AJA",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 76,
+   "defence": 77,
+   "colors": [
+    "#D2122E",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-cam",
+   "name": "Cambuur",
+   "short": "CAM",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 70,
+   "defence": 67,
+   "colors": [
+    "#FFD200",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "ned-ado",
+   "name": "ADO Den Haag",
+   "short": "ADO",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 64,
+   "defence": 67,
+   "colors": [
+    "#00843D",
+    "#FFD200"
+   ]
+  },
+  {
+   "id": "ned-exc",
+   "name": "Excelsior",
+   "short": "EXC",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 65,
+   "defence": 68,
+   "colors": [
+    "#E30613",
+    "#111111"
+   ]
+  },
+  {
+   "id": "ned-fey",
+   "name": "Feyenoord",
+   "short": "FEY",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 79,
+   "defence": 77,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-for",
+   "name": "Fortuna Sittard",
+   "short": "FOR",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 66,
+   "defence": 68,
+   "colors": [
+    "#FFD200",
+    "#00843D"
+   ]
+  },
+  {
+   "id": "ned-gae",
+   "name": "Go Ahead Eagles",
+   "short": "GAE",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 70,
+   "defence": 70,
+   "colors": [
+    "#E30613",
+    "#FFD200"
+   ]
+  },
+  {
+   "id": "ned-gro",
+   "name": "Groningen",
+   "short": "GRO",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 72,
+   "defence": 69,
+   "colors": [
+    "#00843D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-hee",
+   "name": "Heerenveen",
+   "short": "HEE",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 72,
+   "defence": 74,
+   "colors": [
+    "#0055A4",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-nec",
+   "name": "NEC Nijmegen",
+   "short": "NEC",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 75,
+   "defence": 71,
+   "colors": [
+    "#E30613",
+    "#00843D"
+   ]
+  },
+  {
+   "id": "ned-psv",
+   "name": "PSV",
+   "short": "PSV",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 85,
+   "defence": 75,
+   "colors": [
+    "#ED1C24",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-spa",
+   "name": "Sparta Rotterdam",
+   "short": "SPA",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 68,
+   "defence": 67,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-tel",
+   "name": "Telstar",
+   "short": "TEL",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 69,
+   "defence": 69,
+   "colors": [
+    "#FFFFFF",
+    "#E30613"
+   ]
+  },
+  {
+   "id": "ned-twe",
+   "name": "Twente",
+   "short": "TWE",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 77,
+   "defence": 81,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-utr",
+   "name": "Utrecht",
+   "short": "UTR",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 70,
+   "defence": 71,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "ned-wil",
+   "name": "Willem II",
+   "short": "WIL",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 60,
+   "defence": 60,
+   "colors": [
+    "#E30613",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "ned-pec",
+   "name": "PEC Zwolle",
+   "short": "PEC",
+   "country": "NL",
+   "competition": "ned-eredivisie",
+   "kind": "club",
+   "attack": 63,
+   "defence": 67,
+   "colors": [
+    "#0055A4",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-avi",
+   "name": "Académico de Viseu",
+   "short": "AVI",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 68,
+   "defence": 68,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-alv",
+   "name": "Alverca",
+   "short": "ALV",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 67,
+   "defence": 67,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-aro",
+   "name": "Arouca",
+   "short": "ARO",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 71,
+   "defence": 67,
+   "colors": [
+    "#FFD200",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "por-slb",
+   "name": "Benfica",
+   "short": "SLB",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 83,
+   "defence": 78,
+   "colors": [
+    "#E83030",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-cpi",
+   "name": "Casa Pia",
+   "short": "CPI",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 60,
+   "defence": 64,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-est",
+   "name": "Estoril",
+   "short": "EST",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 70,
+   "defence": 63,
+   "colors": [
+    "#FFD200",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "por-ama",
+   "name": "Estrela da Amadora",
+   "short": "EAM",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 69,
+   "defence": 64,
+   "colors": [
+    "#E30613",
+    "#00843D"
+   ]
+  },
+  {
+   "id": "por-fam",
+   "name": "Famalicão",
+   "short": "FAM",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 68,
+   "defence": 74,
+   "colors": [
+    "#0055A4",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-gil",
+   "name": "Gil Vicente",
+   "short": "GIL",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 69,
+   "defence": 73,
+   "colors": [
+    "#E30613",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "por-vsc",
+   "name": "Vitória Guimarães",
+   "short": "VSC",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 69,
+   "defence": 69,
+   "colors": [
+    "#FFFFFF",
+    "#111111"
+   ]
+  },
+  {
+   "id": "por-mar",
+   "name": "Marítimo",
+   "short": "MAR",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 64,
+   "defence": 63,
+   "colors": [
+    "#E30613",
+    "#00843D"
+   ]
+  },
+  {
+   "id": "por-mor",
+   "name": "Moreirense",
+   "short": "MOR",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 64,
+   "defence": 66,
+   "colors": [
+    "#00843D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-nac",
+   "name": "Nacional",
+   "short": "NAC",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 65,
+   "defence": 67,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-fcp",
+   "name": "Porto",
+   "short": "FCP",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 80,
+   "defence": 84,
+   "colors": [
+    "#00428C",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-rio",
+   "name": "Rio Ave",
+   "short": "RAV",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 62,
+   "defence": 62,
+   "colors": [
+    "#00843D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-scl",
+   "name": "Santa Clara",
+   "short": "SCL",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 67,
+   "defence": 73,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-bra",
+   "name": "Braga",
+   "short": "BRA",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 75,
+   "defence": 75,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "por-scp",
+   "name": "Sporting",
+   "short": "SCP",
+   "country": "PT",
+   "competition": "por-liga",
+   "kind": "club",
+   "attack": 84,
+   "defence": 78,
+   "colors": [
+    "#008057",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr1-bur",
+   "name": "Bursaspor",
+   "short": "BUR",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 73,
+   "defence": 70,
+   "colors": [
+    "#00843D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr-kay",
+   "name": "Kayserispor",
+   "short": "KAY",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 68,
+   "defence": 66,
+   "colors": [
+    "#E30613",
+    "#FFD100"
+   ]
+  },
+  {
+   "id": "tr1-igd",
+   "name": "Iğdır FK",
+   "short": "IĞD",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 60,
+   "defence": 66,
+   "colors": [
+    "#E30613",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "tr1-mar",
+   "name": "Mardin 1969",
+   "short": "MAR",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 61,
+   "defence": 68,
+   "colors": [
+    "#E30613",
+    "#FFD200"
+   ]
+  },
+  {
+   "id": "tr1-bat",
+   "name": "Batman Petrolspor",
+   "short": "BAT",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 70,
+   "defence": 56,
+   "colors": [
+    "#E30613",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr1-kec",
+   "name": "Keçiörengücü",
+   "short": "KEÇ",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 69,
+   "defence": 64,
+   "colors": [
+    "#6A1B9A",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr1-bod",
+   "name": "Bodrum FK",
+   "short": "BOD",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 64,
+   "defence": 69,
+   "colors": [
+    "#00843D",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr-ant",
+   "name": "Antalyaspor",
+   "short": "ANT",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 61,
+   "defence": 62,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr-fkg",
+   "name": "Fatih Karagümrük",
+   "short": "FKG",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 61,
+   "defence": 66,
+   "colors": [
+    "#C8102E",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr1-ero",
+   "name": "Esenler Erokspor",
+   "short": "ERO",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 68,
+   "defence": 67,
+   "colors": [
+    "#FFD100",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr1-mug",
+   "name": "Muğlaspor",
+   "short": "MUĞ",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 61,
+   "defence": 53,
+   "colors": [
+    "#0055A4",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr1-umr",
+   "name": "Ümraniyespor",
+   "short": "ÜMR",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 59,
+   "defence": 65,
+   "colors": [
+    "#E30613",
+    "#0E1E5B"
+   ]
+  },
+  {
+   "id": "tr1-sar",
+   "name": "Sarıyer",
+   "short": "SAR",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 55,
+   "defence": 64,
+   "colors": [
+    "#0E1E5B",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr1-van",
+   "name": "Vanspor",
+   "short": "VAN",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 59,
+   "defence": 59,
+   "colors": [
+    "#E30613",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr1-ban",
+   "name": "Bandırmaspor",
+   "short": "BAN",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 57,
+   "defence": 67,
+   "colors": [
+    "#E30613",
+    "#0055A4"
+   ]
+  },
+  {
+   "id": "tr1-pen",
+   "name": "Pendikspor",
+   "short": "PEN",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 59,
+   "defence": 62,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr1-man",
+   "name": "Manisa FK",
+   "short": "MAN",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 62,
+   "defence": 59,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr1-siv",
+   "name": "Sivasspor",
+   "short": "SİV",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 57,
+   "defence": 60,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "tr1-ist",
+   "name": "İstanbulspor",
+   "short": "İST",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 59,
+   "defence": 54,
+   "colors": [
+    "#FFD100",
+    "#111111"
+   ]
+  },
+  {
+   "id": "tr1-bol",
+   "name": "Boluspor",
+   "short": "BOL",
+   "country": "TR",
+   "competition": "tr-1lig",
+   "kind": "club",
+   "attack": 55,
+   "defence": 54,
+   "colors": [
+    "#E30613",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-fra",
+   "name": "Fransa",
+   "short": "FRA",
+   "country": "FR",
+   "competition": "national",
+   "kind": "national",
+   "attack": 89,
+   "defence": 84,
+   "colors": [
+    "#002395",
+    "#ED2939"
+   ]
+  },
+  {
+   "id": "nt-esp",
+   "name": "İspanya",
+   "short": "ESP",
+   "country": "ES",
+   "competition": "national",
+   "kind": "national",
+   "attack": 92,
+   "defence": 91,
+   "colors": [
+    "#C60B1E",
+    "#FFC400"
+   ]
+  },
+  {
+   "id": "nt-eng",
+   "name": "İngiltere",
+   "short": "ENG",
+   "country": "GB",
+   "competition": "national",
+   "kind": "national",
+   "attack": 91,
+   "defence": 84,
+   "colors": [
+    "#FFFFFF",
+    "#CE1124"
+   ]
+  },
+  {
+   "id": "nt-arg",
+   "name": "Arjantin",
+   "short": "ARG",
+   "country": "AR",
+   "competition": "national",
+   "kind": "national",
+   "attack": 92,
+   "defence": 94,
+   "colors": [
+    "#74ACDF",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-bra",
+   "name": "Brezilya",
+   "short": "BRA",
+   "country": "BR",
+   "competition": "national",
+   "kind": "national",
+   "attack": 89,
+   "defence": 84,
+   "colors": [
+    "#FFDF00",
+    "#009C3B"
+   ]
+  },
+  {
+   "id": "nt-por",
+   "name": "Portekiz",
+   "short": "POR",
+   "country": "PT",
+   "competition": "national",
+   "kind": "national",
+   "attack": 88,
+   "defence": 85,
+   "colors": [
+    "#DA291C",
+    "#046A38"
+   ]
+  },
+  {
+   "id": "nt-ger",
+   "name": "Almanya",
+   "short": "GER",
+   "country": "DE",
+   "competition": "national",
+   "kind": "national",
+   "attack": 88,
+   "defence": 80,
+   "colors": [
+    "#FFFFFF",
+    "#111111"
+   ]
+  },
+  {
+   "id": "nt-ned",
+   "name": "Hollanda",
+   "short": "NED",
+   "country": "NL",
+   "competition": "national",
+   "kind": "national",
+   "attack": 89,
+   "defence": 78,
+   "colors": [
+    "#F36C21",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-ita",
+   "name": "İtalya",
+   "short": "ITA",
+   "country": "IT",
+   "competition": "national",
+   "kind": "national",
+   "attack": 81,
+   "defence": 76,
+   "colors": [
+    "#0064AA",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-bel",
+   "name": "Belçika",
+   "short": "BEL",
+   "country": "BE",
+   "competition": "national",
+   "kind": "national",
+   "attack": 85,
+   "defence": 79,
+   "colors": [
+    "#E30613",
+    "#FDDA24"
+   ]
+  },
+  {
+   "id": "nt-nor",
+   "name": "Norveç",
+   "short": "NOR",
+   "country": "NO",
+   "competition": "national",
+   "kind": "national",
+   "attack": 89,
+   "defence": 73,
+   "colors": [
+    "#BA0C2F",
+    "#00205B"
+   ]
+  },
+  {
+   "id": "nt-uru",
+   "name": "Uruguay",
+   "short": "URU",
+   "country": "UY",
+   "competition": "national",
+   "kind": "national",
+   "attack": 79,
+   "defence": 87,
+   "colors": [
+    "#5CBFEB",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-tur",
+   "name": "Türkiye",
+   "short": "TÜR",
+   "country": "TR",
+   "competition": "national",
+   "kind": "national",
+   "attack": 79,
+   "defence": 69,
+   "colors": [
+    "#E30A17",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-cro",
+   "name": "Hırvatistan",
+   "short": "CRO",
+   "country": "HR",
+   "competition": "national",
+   "kind": "national",
+   "attack": 80,
+   "defence": 71,
+   "colors": [
+    "#FF0000",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-mar",
+   "name": "Fas",
+   "short": "MAR",
+   "country": "MA",
+   "competition": "national",
+   "kind": "national",
+   "attack": 81,
+   "defence": 91,
+   "colors": [
+    "#C1272D",
+    "#006233"
+   ]
+  },
+  {
+   "id": "nt-col",
+   "name": "Kolombiya",
+   "short": "COL",
+   "country": "CO",
+   "competition": "national",
+   "kind": "national",
+   "attack": 84,
+   "defence": 89,
+   "colors": [
+    "#FCD116",
+    "#003893"
+   ]
+  },
+  {
+   "id": "nt-den",
+   "name": "Danimarka",
+   "short": "DEN",
+   "country": "DK",
+   "competition": "national",
+   "kind": "national",
+   "attack": 81,
+   "defence": 76,
+   "colors": [
+    "#C8102E",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-jpn",
+   "name": "Japonya",
+   "short": "JPN",
+   "country": "JP",
+   "competition": "national",
+   "kind": "national",
+   "attack": 84,
+   "defence": 83,
+   "colors": [
+    "#000555",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-sui",
+   "name": "İsviçre",
+   "short": "SUI",
+   "country": "CH",
+   "competition": "national",
+   "kind": "national",
+   "attack": 85,
+   "defence": 80,
+   "colors": [
+    "#D52B1E",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-sen",
+   "name": "Senegal",
+   "short": "SEN",
+   "country": "SN",
+   "competition": "national",
+   "kind": "national",
+   "attack": 81,
+   "defence": 79,
+   "colors": [
+    "#00853F",
+    "#FDEF42"
+   ]
+  },
+  {
+   "id": "nt-usa",
+   "name": "ABD",
+   "short": "USA",
+   "country": "US",
+   "competition": "national",
+   "kind": "national",
+   "attack": 81,
+   "defence": 70,
+   "colors": [
+    "#FFFFFF",
+    "#0A3161"
+   ]
+  },
+  {
+   "id": "nt-mex",
+   "name": "Meksika",
+   "short": "MEX",
+   "country": "MX",
+   "competition": "national",
+   "kind": "national",
+   "attack": 77,
+   "defence": 80,
+   "colors": [
+    "#006847",
+    "#CE1126"
+   ]
+  },
+  {
+   "id": "nt-kor",
+   "name": "Güney Kore",
+   "short": "KOR",
+   "country": "KR",
+   "competition": "national",
+   "kind": "national",
+   "attack": 77,
+   "defence": 74,
+   "colors": [
+    "#C60C30",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-aus",
+   "name": "Avustralya",
+   "short": "AUS",
+   "country": "AU",
+   "competition": "national",
+   "kind": "national",
+   "attack": 76,
+   "defence": 80,
+   "colors": [
+    "#FFCD00",
+    "#00843D"
+   ]
+  },
+  {
+   "id": "nt-aut",
+   "name": "Avusturya",
+   "short": "AUT",
+   "country": "AT",
+   "competition": "national",
+   "kind": "national",
+   "attack": 81,
+   "defence": 74,
+   "colors": [
+    "#ED2939",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-ecu",
+   "name": "Ekvador",
+   "short": "ECU",
+   "country": "EC",
+   "competition": "national",
+   "kind": "national",
+   "attack": 69,
+   "defence": 94,
+   "colors": [
+    "#FFDD00",
+    "#034EA2"
+   ]
+  },
+  {
+   "id": "nt-srb",
+   "name": "Sırbistan",
+   "short": "SRB",
+   "country": "RS",
+   "competition": "national",
+   "kind": "national",
+   "attack": 69,
+   "defence": 73,
+   "colors": [
+    "#C6363C",
+    "#0C4076"
+   ]
+  },
+  {
+   "id": "nt-swe",
+   "name": "İsveç",
+   "short": "SWE",
+   "country": "SE",
+   "competition": "national",
+   "kind": "national",
+   "attack": 80,
+   "defence": 67,
+   "colors": [
+    "#FECC00",
+    "#006AA7"
+   ]
+  },
+  {
+   "id": "nt-pol",
+   "name": "Polonya",
+   "short": "POL",
+   "country": "PL",
+   "competition": "national",
+   "kind": "national",
+   "attack": 74,
+   "defence": 70,
+   "colors": [
+    "#FFFFFF",
+    "#DC143C"
+   ]
+  },
+  {
+   "id": "nt-ukr",
+   "name": "Ukrayna",
+   "short": "UKR",
+   "country": "UA",
+   "competition": "national",
+   "kind": "national",
+   "attack": 74,
+   "defence": 69,
+   "colors": [
+    "#FFD500",
+    "#005BBB"
+   ]
+  },
+  {
+   "id": "nt-cze",
+   "name": "Çekya",
+   "short": "CZE",
+   "country": "CZ",
+   "competition": "national",
+   "kind": "national",
+   "attack": 73,
+   "defence": 68,
+   "colors": [
+    "#D7141A",
+    "#11457E"
+   ]
+  },
+  {
+   "id": "nt-sco",
+   "name": "İskoçya",
+   "short": "SCO",
+   "country": "GB",
+   "competition": "national",
+   "kind": "national",
+   "attack": 74,
+   "defence": 73,
+   "colors": [
+    "#005EB8",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-irn",
+   "name": "İran",
+   "short": "IRN",
+   "country": "IR",
+   "competition": "national",
+   "kind": "national",
+   "attack": 78,
+   "defence": 76,
+   "colors": [
+    "#FFFFFF",
+    "#DA0000"
+   ]
+  },
+  {
+   "id": "nt-par",
+   "name": "Paraguay",
+   "short": "PAR",
+   "country": "PY",
+   "competition": "national",
+   "kind": "national",
+   "attack": 72,
+   "defence": 84,
+   "colors": [
+    "#D52B1E",
+    "#0038A8"
+   ]
+  },
+  {
+   "id": "nt-can",
+   "name": "Kanada",
+   "short": "CAN",
+   "country": "CA",
+   "competition": "national",
+   "kind": "national",
+   "attack": 75,
+   "defence": 77,
+   "colors": [
+    "#FF0000",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-egy",
+   "name": "Mısır",
+   "short": "EGY",
+   "country": "EG",
+   "competition": "national",
+   "kind": "national",
+   "attack": 73,
+   "defence": 79,
+   "colors": [
+    "#CE1126",
+    "#111111"
+   ]
+  },
+  {
+   "id": "nt-alg",
+   "name": "Cezayir",
+   "short": "ALG",
+   "country": "DZ",
+   "competition": "national",
+   "kind": "national",
+   "attack": 81,
+   "defence": 73,
+   "colors": [
+    "#006233",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-civ",
+   "name": "Fildişi Sahili",
+   "short": "CIV",
+   "country": "CI",
+   "competition": "national",
+   "kind": "national",
+   "attack": 74,
+   "defence": 83,
+   "colors": [
+    "#F77F00",
+    "#009E60"
+   ]
+  },
+  {
+   "id": "nt-nga",
+   "name": "Nijerya",
+   "short": "NGA",
+   "country": "NG",
+   "competition": "national",
+   "kind": "national",
+   "attack": 79,
+   "defence": 73,
+   "colors": [
+    "#008751",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-cmr",
+   "name": "Kamerun",
+   "short": "CMR",
+   "country": "CM",
+   "competition": "national",
+   "kind": "national",
+   "attack": 70,
+   "defence": 76,
+   "colors": [
+    "#007A5E",
+    "#CE1126"
+   ]
+  },
+  {
+   "id": "nt-gha",
+   "name": "Gana",
+   "short": "GHA",
+   "country": "GH",
+   "competition": "national",
+   "kind": "national",
+   "attack": 67,
+   "defence": 69,
+   "colors": [
+    "#FCD116",
+    "#006B3F"
+   ]
+  },
+  {
+   "id": "nt-tun",
+   "name": "Tunus",
+   "short": "TUN",
+   "country": "TN",
+   "competition": "national",
+   "kind": "national",
+   "attack": 69,
+   "defence": 69,
+   "colors": [
+    "#E70013",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-ksa",
+   "name": "Suudi Arabistan",
+   "short": "KSA",
+   "country": "SA",
+   "competition": "national",
+   "kind": "national",
+   "attack": 65,
+   "defence": 75,
+   "colors": [
+    "#006C35",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-qat",
+   "name": "Katar",
+   "short": "QAT",
+   "country": "QA",
+   "competition": "national",
+   "kind": "national",
+   "attack": 65,
+   "defence": 61,
+   "colors": [
+    "#8A1538",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-uzb",
+   "name": "Özbekistan",
+   "short": "UZB",
+   "country": "UZ",
+   "competition": "national",
+   "kind": "national",
+   "attack": 72,
+   "defence": 70,
+   "colors": [
+    "#1EB53A",
+    "#0099B5"
+   ]
+  },
+  {
+   "id": "nt-jor",
+   "name": "Ürdün",
+   "short": "JOR",
+   "country": "JO",
+   "competition": "national",
+   "kind": "national",
+   "attack": 75,
+   "defence": 66,
+   "colors": [
+    "#CE1126",
+    "#007A3D"
+   ]
+  },
+  {
+   "id": "nt-pan",
+   "name": "Panama",
+   "short": "PAN",
+   "country": "PA",
+   "competition": "national",
+   "kind": "national",
+   "attack": 72,
+   "defence": 69,
+   "colors": [
+    "#DA121A",
+    "#072357"
+   ]
+  },
+  {
+   "id": "nt-nzl",
+   "name": "Yeni Zelanda",
+   "short": "NZL",
+   "country": "NZ",
+   "competition": "national",
+   "kind": "national",
+   "attack": 76,
+   "defence": 64,
+   "colors": [
+    "#FFFFFF",
+    "#111111"
+   ]
+  },
+  {
+   "id": "nt-hun",
+   "name": "Macaristan",
+   "short": "HUN",
+   "country": "HU",
+   "competition": "national",
+   "kind": "national",
+   "attack": 69,
+   "defence": 73,
+   "colors": [
+    "#CE2939",
+    "#477050"
+   ]
+  },
+  {
+   "id": "nt-gre",
+   "name": "Yunanistan",
+   "short": "GRE",
+   "country": "GR",
+   "competition": "national",
+   "kind": "national",
+   "attack": 76,
+   "defence": 80,
+   "colors": [
+    "#0D5EAF",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "nt-svk",
+   "name": "Slovakya",
+   "short": "SVK",
+   "country": "SK",
+   "competition": "national",
+   "kind": "national",
+   "attack": 71,
+   "defence": 70,
+   "colors": [
+    "#0B4EA2",
+    "#EE1C25"
+   ]
+  },
+  {
+   "id": "nt-rou",
+   "name": "Romanya",
+   "short": "ROU",
+   "country": "RO",
+   "competition": "national",
+   "kind": "national",
+   "attack": 69,
+   "defence": 64,
+   "colors": [
+    "#FCD116",
+    "#002B7F"
+   ]
+  },
+  {
+   "id": "leg-gs-2000",
+   "name": "Galatasaray 1999-00",
+   "short": "GS",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 88,
+   "defence": 86,
+   "colors": [
+    "#A90432",
+    "#FDB912"
+   ]
+  },
+  {
+   "id": "leg-gs-1993",
+   "name": "Galatasaray 1992-93",
+   "short": "GS",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 84,
+   "defence": 82,
+   "colors": [
+    "#A90432",
+    "#FDB912"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-gs-1988",
+   "name": "Galatasaray 1987-88",
+   "short": "GS",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 82,
+   "defence": 82,
+   "colors": [
+    "#A90432",
+    "#FDB912"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-fb-1989",
+   "name": "Fenerbahçe 1988-89",
+   "short": "FB",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 87,
+   "defence": 79,
+   "colors": [
+    "#0E1E5B",
+    "#FFED00"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-fb-2001",
+   "name": "Fenerbahçe 2000-01",
+   "short": "FB",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 84,
+   "defence": 81,
+   "colors": [
+    "#0E1E5B",
+    "#FFED00"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-fb-2008",
+   "name": "Fenerbahçe 2007-08",
+   "short": "FB",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 87,
+   "defence": 83,
+   "colors": [
+    "#0E1E5B",
+    "#FFED00"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-fb-2011",
+   "name": "Fenerbahçe 2010-11",
+   "short": "FB",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 86,
+   "defence": 82,
+   "colors": [
+    "#0E1E5B",
+    "#FFED00"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bjk-1992",
+   "name": "Beşiktaş 1991-92",
+   "short": "BJK",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 85,
+   "defence": 84,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bjk-2003",
+   "name": "Beşiktaş 2002-03",
+   "short": "BJK",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 84,
+   "defence": 83,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bjk-2017",
+   "name": "Beşiktaş 2016-17",
+   "short": "BJK",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 85,
+   "defence": 81,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-ts-1980",
+   "name": "Trabzonspor 1979-80",
+   "short": "TS",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 81,
+   "defence": 85,
+   "colors": [
+    "#6D1A36",
+    "#5BC2E7"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-ts-1984",
+   "name": "Trabzonspor 1983-84",
+   "short": "TS",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 80,
+   "defence": 84,
+   "colors": [
+    "#6D1A36",
+    "#5BC2E7"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-brs-2010",
+   "name": "Bursaspor 2009-10",
+   "short": "BRS",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 80,
+   "defence": 78,
+   "colors": [
+    "#00843D",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-tur-2002",
+   "name": "Türkiye 2002",
+   "short": "TÜR",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 87,
+   "defence": 86,
+   "colors": [
+    "#E30A17",
+    "#FFFFFF"
+   ]
+  },
+  {
+   "id": "leg-tur-2008",
+   "name": "Türkiye 2008",
+   "short": "TÜR",
+   "country": "TR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 84,
+   "defence": 80,
+   "colors": [
+    "#E30A17",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bar-2011",
+   "name": "Barcelona 2010-11",
+   "short": "BAR",
+   "country": "ES",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 97,
+   "defence": 92,
+   "colors": [
+    "#A50044",
+    "#004D98"
+   ]
+  },
+  {
+   "id": "leg-bar-2009",
+   "name": "Barcelona 2008-09",
+   "short": "BAR",
+   "country": "ES",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 96,
+   "defence": 90,
+   "colors": [
+    "#A50044",
+    "#004D98"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bar-2015",
+   "name": "Barcelona 2014-15",
+   "short": "BAR",
+   "country": "ES",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 97,
+   "defence": 88,
+   "colors": [
+    "#A50044",
+    "#004D98"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-rma-1960",
+   "name": "Real Madrid 1959-60",
+   "short": "RMA",
+   "country": "ES",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 94,
+   "defence": 86,
+   "colors": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-rma-2002",
+   "name": "Real Madrid 2001-02",
+   "short": "RMA",
+   "country": "ES",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 94,
+   "defence": 86,
+   "colors": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-rma-2017",
+   "name": "Real Madrid 2016-17",
+   "short": "RMA",
+   "country": "ES",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 95,
+   "defence": 89,
+   "colors": [
+    "#FFFFFF",
+    "#FEBE10"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-mil-1989",
+   "name": "Milan 1988-89",
+   "short": "MIL",
+   "country": "IT",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 94,
+   "defence": 94,
+   "colors": [
+    "#FB090B",
+    "#111111"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-mil-1994",
+   "name": "Milan 1993-94",
+   "short": "MIL",
+   "country": "IT",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 89,
+   "defence": 96,
+   "colors": [
+    "#FB090B",
+    "#111111"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-int-2010",
+   "name": "Inter 2009-10",
+   "short": "INT",
+   "country": "IT",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 89,
+   "defence": 93,
+   "colors": [
+    "#0068A8",
+    "#111111"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-juv-1996",
+   "name": "Juventus 1995-96",
+   "short": "JUV",
+   "country": "IT",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 90,
+   "defence": 91,
+   "colors": [
+    "#111111",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-mun-1999",
+   "name": "Manchester United 1998-99",
+   "short": "MUN",
+   "country": "GB",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 93,
+   "defence": 88,
+   "colors": [
+    "#DA291C",
+    "#FBE122"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-mun-2008",
+   "name": "Manchester United 2007-08",
+   "short": "MUN",
+   "country": "GB",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 93,
+   "defence": 91,
+   "colors": [
+    "#DA291C",
+    "#FBE122"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-ars-2004",
+   "name": "Arsenal 2003-04",
+   "short": "ARS",
+   "country": "GB",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 93,
+   "defence": 90,
+   "colors": [
+    "#EF0107",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-che-2005",
+   "name": "Chelsea 2004-05",
+   "short": "CHE",
+   "country": "GB",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 89,
+   "defence": 95,
+   "colors": [
+    "#034694",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-liv-2020",
+   "name": "Liverpool 2019-20",
+   "short": "LIV",
+   "country": "GB",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 94,
+   "defence": 90,
+   "colors": [
+    "#C8102E",
+    "#F6EB61"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-mci-2023",
+   "name": "Manchester City 2022-23",
+   "short": "MCI",
+   "country": "GB",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 96,
+   "defence": 91,
+   "colors": [
+    "#6CABDD",
+    "#1C2C5B"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bay-2013",
+   "name": "Bayern München 2012-13",
+   "short": "BAY",
+   "country": "DE",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 95,
+   "defence": 93,
+   "colors": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bay-2020",
+   "name": "Bayern München 2019-20",
+   "short": "BAY",
+   "country": "DE",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 96,
+   "defence": 90,
+   "colors": [
+    "#DC052D",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bvb-1997",
+   "name": "Borussia Dortmund 1996-97",
+   "short": "BVB",
+   "country": "DE",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 86,
+   "defence": 86,
+   "colors": [
+    "#FDE100",
+    "#111111"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-aja-1972",
+   "name": "Ajax 1971-72",
+   "short": "AJA",
+   "country": "NL",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 93,
+   "defence": 87,
+   "colors": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-aja-1995",
+   "name": "Ajax 1994-95",
+   "short": "AJA",
+   "country": "NL",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 91,
+   "defence": 88,
+   "colors": [
+    "#D2122E",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-fcp-2004",
+   "name": "Porto 2003-04",
+   "short": "FCP",
+   "country": "PT",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 85,
+   "defence": 89,
+   "colors": [
+    "#00428C",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bra-1970",
+   "name": "Brezilya 1970",
+   "short": "BRA",
+   "country": "BR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 97,
+   "defence": 85,
+   "colors": [
+    "#FFDF00",
+    "#009C3B"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-bra-2002",
+   "name": "Brezilya 2002",
+   "short": "BRA",
+   "country": "BR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 95,
+   "defence": 86,
+   "colors": [
+    "#FFDF00",
+    "#009C3B"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-ned-1974",
+   "name": "Hollanda 1974",
+   "short": "NED",
+   "country": "NL",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 94,
+   "defence": 86,
+   "colors": [
+    "#F36C21",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-hun-1954",
+   "name": "Macaristan 1954",
+   "short": "HUN",
+   "country": "HU",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 93,
+   "defence": 82,
+   "colors": [
+    "#CE2939",
+    "#477050"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-arg-1986",
+   "name": "Arjantin 1986",
+   "short": "ARG",
+   "country": "AR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 93,
+   "defence": 87,
+   "colors": [
+    "#74ACDF",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-arg-2022",
+   "name": "Arjantin 2022",
+   "short": "ARG",
+   "country": "AR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 93,
+   "defence": 89,
+   "colors": [
+    "#74ACDF",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-frg-1990",
+   "name": "Batı Almanya 1990",
+   "short": "FRG",
+   "country": "DE",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 91,
+   "defence": 91,
+   "colors": [
+    "#FFFFFF",
+    "#111111"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-ger-2014",
+   "name": "Almanya 2014",
+   "short": "GER",
+   "country": "DE",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 94,
+   "defence": 91,
+   "colors": [
+    "#FFFFFF",
+    "#111111"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-fra-1998",
+   "name": "Fransa 1998",
+   "short": "FRA",
+   "country": "FR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 91,
+   "defence": 94,
+   "colors": [
+    "#002395",
+    "#ED2939"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-fra-2018",
+   "name": "Fransa 2018",
+   "short": "FRA",
+   "country": "FR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 93,
+   "defence": 91,
+   "colors": [
+    "#002395",
+    "#ED2939"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-ita-2006",
+   "name": "İtalya 2006",
+   "short": "ITA",
+   "country": "IT",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 89,
+   "defence": 95,
+   "colors": [
+    "#0064AA",
+    "#FFFFFF"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-esp-2010",
+   "name": "İspanya 2010",
+   "short": "ESP",
+   "country": "ES",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 95,
+   "defence": 93,
+   "colors": [
+    "#C60B1E",
+    "#FFC400"
+   ],
+   "pro": true
+  },
+  {
+   "id": "leg-gre-2004",
+   "name": "Yunanistan 2004",
+   "short": "GRE",
+   "country": "GR",
+   "competition": "legends",
+   "kind": "legend",
+   "attack": 80,
+   "defence": 90,
+   "colors": [
+    "#0D5EAF",
+    "#FFFFFF"
+   ],
+   "pro": true
+  }
+ ]
+}

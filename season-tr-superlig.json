@@ -1,0 +1,2300 @@
+{
+ "isSample": false,
+ "updatedAt": "2026-11-10T11:30:51Z",
+ "state": {
+  "competitionID": "tr-superlig",
+  "week": 11,
+  "table": [
+   {
+    "teamID": "tr-gs",
+    "played": 11,
+    "won": 9,
+    "drawn": 1,
+    "lost": 1,
+    "goalsFor": 27,
+    "goalsAgainst": 15
+   },
+   {
+    "teamID": "tr-fb",
+    "played": 11,
+    "won": 6,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 29,
+    "goalsAgainst": 10
+   },
+   {
+    "teamID": "tr-bjk",
+    "played": 11,
+    "won": 7,
+    "drawn": 1,
+    "lost": 3,
+    "goalsFor": 23,
+    "goalsAgainst": 12
+   },
+   {
+    "teamID": "tr-ts",
+    "played": 11,
+    "won": 8,
+    "drawn": 1,
+    "lost": 2,
+    "goalsFor": 26,
+    "goalsAgainst": 8
+   },
+   {
+    "teamID": "tr-ibfk",
+    "played": 11,
+    "won": 5,
+    "drawn": 2,
+    "lost": 4,
+    "goalsFor": 19,
+    "goalsAgainst": 17
+   },
+   {
+    "teamID": "tr-sam",
+    "played": 11,
+    "won": 2,
+    "drawn": 1,
+    "lost": 8,
+    "goalsFor": 11,
+    "goalsAgainst": 26
+   },
+   {
+    "teamID": "tr-goz",
+    "played": 11,
+    "won": 4,
+    "drawn": 3,
+    "lost": 4,
+    "goalsFor": 22,
+    "goalsAgainst": 19
+   },
+   {
+    "teamID": "tr-aln",
+    "played": 11,
+    "won": 3,
+    "drawn": 3,
+    "lost": 5,
+    "goalsFor": 9,
+    "goalsAgainst": 18
+   },
+   {
+    "teamID": "tr-kon",
+    "played": 11,
+    "won": 2,
+    "drawn": 2,
+    "lost": 7,
+    "goalsFor": 6,
+    "goalsAgainst": 14
+   },
+   {
+    "teamID": "tr-kas",
+    "played": 11,
+    "won": 5,
+    "drawn": 5,
+    "lost": 1,
+    "goalsFor": 17,
+    "goalsAgainst": 11
+   },
+   {
+    "teamID": "tr-gfk",
+    "played": 11,
+    "won": 2,
+    "drawn": 2,
+    "lost": 7,
+    "goalsFor": 9,
+    "goalsAgainst": 19
+   },
+   {
+    "teamID": "tr-riz",
+    "played": 11,
+    "won": 4,
+    "drawn": 2,
+    "lost": 5,
+    "goalsFor": 13,
+    "goalsAgainst": 16
+   },
+   {
+    "teamID": "tr-eyp",
+    "played": 11,
+    "won": 1,
+    "drawn": 0,
+    "lost": 10,
+    "goalsFor": 3,
+    "goalsAgainst": 30
+   },
+   {
+    "teamID": "tr-koc",
+    "played": 11,
+    "won": 6,
+    "drawn": 1,
+    "lost": 4,
+    "goalsFor": 13,
+    "goalsAgainst": 9
+   },
+   {
+    "teamID": "tr-gb",
+    "played": 11,
+    "won": 3,
+    "drawn": 2,
+    "lost": 6,
+    "goalsFor": 12,
+    "goalsAgainst": 21
+   },
+   {
+    "teamID": "tr-amd",
+    "played": 11,
+    "won": 7,
+    "drawn": 2,
+    "lost": 2,
+    "goalsFor": 28,
+    "goalsAgainst": 15
+   },
+   {
+    "teamID": "tr-cor",
+    "played": 11,
+    "won": 5,
+    "drawn": 1,
+    "lost": 5,
+    "goalsFor": 21,
+    "goalsAgainst": 21
+   },
+   {
+    "teamID": "tr-erz",
+    "played": 11,
+    "won": 4,
+    "drawn": 2,
+    "lost": 5,
+    "goalsFor": 10,
+    "goalsAgainst": 17
+   }
+  ],
+  "playedResults": [
+   {
+    "fixture": {
+     "home": "tr-gs",
+     "away": "tr-cor",
+     "round": 1
+    },
+    "score": {
+     "home": 2,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kas",
+     "away": "tr-ts",
+     "round": 1
+    },
+    "score": {
+     "home": 1,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kon",
+     "away": "tr-riz",
+     "round": 1
+    },
+    "score": {
+     "home": 0,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gfk",
+     "away": "tr-aln",
+     "round": 1
+    },
+    "score": {
+     "home": 1,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gb",
+     "away": "tr-fb",
+     "round": 1
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ibfk",
+     "away": "tr-koc",
+     "round": 1
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-amd",
+     "away": "tr-erz",
+     "round": 1
+    },
+    "score": {
+     "home": 3,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-bjk",
+     "away": "tr-eyp",
+     "round": 1
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-sam",
+     "away": "tr-goz",
+     "round": 1
+    },
+    "score": {
+     "home": 3,
+     "away": 3
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-erz",
+     "away": "tr-gs",
+     "round": 2
+    },
+    "score": {
+     "home": 0,
+     "away": 4
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-cor",
+     "away": "tr-kas",
+     "round": 2
+    },
+    "score": {
+     "home": 0,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-riz",
+     "away": "tr-sam",
+     "round": 2
+    },
+    "score": {
+     "home": 0,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-fb",
+     "away": "tr-kon",
+     "round": 2
+    },
+    "score": {
+     "home": 4,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-eyp",
+     "away": "tr-gfk",
+     "round": 2
+    },
+    "score": {
+     "home": 0,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ts",
+     "away": "tr-ibfk",
+     "round": 2
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-aln",
+     "away": "tr-bjk",
+     "round": 2
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-goz",
+     "away": "tr-gb",
+     "round": 2
+    },
+    "score": {
+     "home": 0,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-koc",
+     "away": "tr-amd",
+     "round": 2
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gb",
+     "away": "tr-erz",
+     "round": 3
+    },
+    "score": {
+     "home": 1,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kon",
+     "away": "tr-koc",
+     "round": 3
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gs",
+     "away": "tr-goz",
+     "round": 3
+    },
+    "score": {
+     "home": 3,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gfk",
+     "away": "tr-riz",
+     "round": 3
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-eyp",
+     "away": "tr-aln",
+     "round": 3
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ibfk",
+     "away": "tr-kas",
+     "round": 3
+    },
+    "score": {
+     "home": 1,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-sam",
+     "away": "tr-fb",
+     "round": 3
+    },
+    "score": {
+     "home": 0,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-amd",
+     "away": "tr-ts",
+     "round": 3
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-bjk",
+     "away": "tr-cor",
+     "round": 3
+    },
+    "score": {
+     "home": 6,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ibfk",
+     "away": "tr-gs",
+     "round": 4
+    },
+    "score": {
+     "home": 2,
+     "away": 3
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-erz",
+     "away": "tr-kon",
+     "round": 4
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-fb",
+     "away": "tr-bjk",
+     "round": 4
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-cor",
+     "away": "tr-eyp",
+     "round": 4
+    },
+    "score": {
+     "home": 3,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kas",
+     "away": "tr-amd",
+     "round": 4
+    },
+    "score": {
+     "home": 2,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-koc",
+     "away": "tr-sam",
+     "round": 4
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ts",
+     "away": "tr-gb",
+     "round": 4
+    },
+    "score": {
+     "home": 5,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-goz",
+     "away": "tr-gfk",
+     "round": 4
+    },
+    "score": {
+     "home": 2,
+     "away": 4
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-riz",
+     "away": "tr-aln",
+     "round": 4
+    },
+    "score": {
+     "home": 0,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-bjk",
+     "away": "tr-erz",
+     "round": 5
+    },
+    "score": {
+     "home": 3,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-eyp",
+     "away": "tr-riz",
+     "round": 5
+    },
+    "score": {
+     "home": 0,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-sam",
+     "away": "tr-cor",
+     "round": 5
+    },
+    "score": {
+     "home": 1,
+     "away": 5
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-aln",
+     "away": "tr-goz",
+     "round": 5
+    },
+    "score": {
+     "home": 2,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kon",
+     "away": "tr-ts",
+     "round": 5
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gb",
+     "away": "tr-kas",
+     "round": 5
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-amd",
+     "away": "tr-ibfk",
+     "round": 5
+    },
+    "score": {
+     "home": 5,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gs",
+     "away": "tr-koc",
+     "round": 5
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gfk",
+     "away": "tr-fb",
+     "round": 5
+    },
+    "score": {
+     "home": 0,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kas",
+     "away": "tr-kon",
+     "round": 6
+    },
+    "score": {
+     "home": 0,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-cor",
+     "away": "tr-aln",
+     "round": 6
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-koc",
+     "away": "tr-gfk",
+     "round": 6
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ibfk",
+     "away": "tr-gb",
+     "round": 6
+    },
+    "score": {
+     "home": 4,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ts",
+     "away": "tr-gs",
+     "round": 6
+    },
+    "score": {
+     "home": 4,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-erz",
+     "away": "tr-sam",
+     "round": 6
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-fb",
+     "away": "tr-eyp",
+     "round": 6
+    },
+    "score": {
+     "home": 8,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-amd",
+     "away": "tr-bjk",
+     "round": 6
+    },
+    "score": {
+     "home": 3,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-goz",
+     "away": "tr-riz",
+     "round": 6
+    },
+    "score": {
+     "home": 2,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gs",
+     "away": "tr-kas",
+     "round": 7
+    },
+    "score": {
+     "home": 3,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gb",
+     "away": "tr-amd",
+     "round": 7
+    },
+    "score": {
+     "home": 2,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-aln",
+     "away": "tr-erz",
+     "round": 7
+    },
+    "score": {
+     "home": 0,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-sam",
+     "away": "tr-ts",
+     "round": 7
+    },
+    "score": {
+     "home": 0,
+     "away": 3
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-riz",
+     "away": "tr-fb",
+     "round": 7
+    },
+    "score": {
+     "home": 0,
+     "away": 3
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kon",
+     "away": "tr-ibfk",
+     "round": 7
+    },
+    "score": {
+     "home": 0,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gfk",
+     "away": "tr-cor",
+     "round": 7
+    },
+    "score": {
+     "home": 0,
+     "away": 3
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-bjk",
+     "away": "tr-koc",
+     "round": 7
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-eyp",
+     "away": "tr-goz",
+     "round": 7
+    },
+    "score": {
+     "home": 0,
+     "away": 4
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-cor",
+     "away": "tr-riz",
+     "round": 8
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-erz",
+     "away": "tr-eyp",
+     "round": 8
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-amd",
+     "away": "tr-kon",
+     "round": 8
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gb",
+     "away": "tr-gs",
+     "round": 8
+    },
+    "score": {
+     "home": 0,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-fb",
+     "away": "tr-aln",
+     "round": 8
+    },
+    "score": {
+     "home": 3,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kas",
+     "away": "tr-sam",
+     "round": 8
+    },
+    "score": {
+     "home": 4,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-koc",
+     "away": "tr-goz",
+     "round": 8
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ibfk",
+     "away": "tr-gfk",
+     "round": 8
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ts",
+     "away": "tr-bjk",
+     "round": 8
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-aln",
+     "away": "tr-koc",
+     "round": 9
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-eyp",
+     "away": "tr-kas",
+     "round": 9
+    },
+    "score": {
+     "home": 0,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gfk",
+     "away": "tr-erz",
+     "round": 9
+    },
+    "score": {
+     "home": 1,
+     "away": 3
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-sam",
+     "away": "tr-amd",
+     "round": 9
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kon",
+     "away": "tr-gb",
+     "round": 9
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-goz",
+     "away": "tr-cor",
+     "round": 9
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-bjk",
+     "away": "tr-ibfk",
+     "round": 9
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-riz",
+     "away": "tr-ts",
+     "round": 9
+    },
+    "score": {
+     "home": 3,
+     "away": 4
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gs",
+     "away": "tr-fb",
+     "round": 9
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kon",
+     "away": "tr-gs",
+     "round": 10
+    },
+    "score": {
+     "home": 0,
+     "away": 4
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-erz",
+     "away": "tr-cor",
+     "round": 10
+    },
+    "score": {
+     "home": 1,
+     "away": 3
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-koc",
+     "away": "tr-riz",
+     "round": 10
+    },
+    "score": {
+     "home": 0,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-fb",
+     "away": "tr-goz",
+     "round": 10
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-amd",
+     "away": "tr-eyp",
+     "round": 10
+    },
+    "score": {
+     "home": 5,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ibfk",
+     "away": "tr-sam",
+     "round": 10
+    },
+    "score": {
+     "home": 5,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-ts",
+     "away": "tr-gfk",
+     "round": 10
+    },
+    "score": {
+     "home": 2,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-kas",
+     "away": "tr-bjk",
+     "round": 10
+    },
+    "score": {
+     "home": 2,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gb",
+     "away": "tr-aln",
+     "round": 10
+    },
+    "score": {
+     "home": 5,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gfk",
+     "away": "tr-kas",
+     "round": 11
+    },
+    "score": {
+     "home": 0,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-eyp",
+     "away": "tr-koc",
+     "round": 11
+    },
+    "score": {
+     "home": 0,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-sam",
+     "away": "tr-kon",
+     "round": 11
+    },
+    "score": {
+     "home": 1,
+     "away": 0
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-gs",
+     "away": "tr-amd",
+     "round": 11
+    },
+    "score": {
+     "home": 4,
+     "away": 3
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-goz",
+     "away": "tr-ibfk",
+     "round": 11
+    },
+    "score": {
+     "home": 1,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-riz",
+     "away": "tr-erz",
+     "round": 11
+    },
+    "score": {
+     "home": 2,
+     "away": 1
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-cor",
+     "away": "tr-fb",
+     "round": 11
+    },
+    "score": {
+     "home": 0,
+     "away": 5
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-aln",
+     "away": "tr-ts",
+     "round": 11
+    },
+    "score": {
+     "home": 0,
+     "away": 2
+    }
+   },
+   {
+    "fixture": {
+     "home": "tr-bjk",
+     "away": "tr-gb",
+     "round": 11
+    },
+    "score": {
+     "home": 3,
+     "away": 0
+    }
+   }
+  ],
+  "remainingFixtures": [
+   {
+    "home": "tr-koc",
+    "away": "tr-gs",
+    "round": 12
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-fb",
+    "round": 12
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-amd",
+    "round": 12
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-ts",
+    "round": 12
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-cor",
+    "round": 12
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-goz",
+    "round": 12
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-gfk",
+    "round": 12
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-bjk",
+    "round": 12
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-riz",
+    "round": 12
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-gb",
+    "round": 13
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-sam",
+    "round": 13
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-ibfk",
+    "round": 13
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-goz",
+    "round": 13
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-bjk",
+    "round": 13
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-gfk",
+    "round": 13
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-kas",
+    "round": 13
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-cor",
+    "round": 13
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-koc",
+    "round": 13
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-sam",
+    "round": 14
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-gfk",
+    "round": 14
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-riz",
+    "round": 14
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-cor",
+    "round": 14
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-gb",
+    "round": 14
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-aln",
+    "round": 14
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-kas",
+    "round": 14
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-ts",
+    "round": 14
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-fb",
+    "round": 14
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-kon",
+    "round": 15
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-bjk",
+    "round": 15
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-eyp",
+    "round": 15
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-sam",
+    "round": 15
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-gb",
+    "round": 15
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-goz",
+    "round": 15
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-fb",
+    "round": 15
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-aln",
+    "round": 15
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-koc",
+    "round": 15
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-aln",
+    "round": 16
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-bjk",
+    "round": 16
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-ts",
+    "round": 16
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-amd",
+    "round": 16
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-goz",
+    "round": 16
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-koc",
+    "round": 16
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-riz",
+    "round": 16
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-kas",
+    "round": 16
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-erz",
+    "round": 16
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-ibfk",
+    "round": 17
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-kas",
+    "round": 17
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-koc",
+    "round": 17
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-cor",
+    "round": 17
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-amd",
+    "round": 17
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-ts",
+    "round": 17
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-kon",
+    "round": 17
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-gfk",
+    "round": 17
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-sam",
+    "round": 17
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-gs",
+    "round": 18
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-kas",
+    "round": 18
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-eyp",
+    "round": 18
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-erz",
+    "round": 18
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-gfk",
+    "round": 18
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-sam",
+    "round": 18
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-koc",
+    "round": 18
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-ibfk",
+    "round": 18
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-gb",
+    "round": 18
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-gs",
+    "round": 19
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-goz",
+    "round": 19
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-bjk",
+    "round": 19
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-eyp",
+    "round": 19
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-ts",
+    "round": 19
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-sam",
+    "round": 19
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-aln",
+    "round": 19
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-cor",
+    "round": 19
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-ibfk",
+    "round": 19
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-gfk",
+    "round": 20
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-aln",
+    "round": 20
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-erz",
+    "round": 20
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-goz",
+    "round": 20
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-fb",
+    "round": 20
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-riz",
+    "round": 20
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-amd",
+    "round": 20
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-kon",
+    "round": 20
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-koc",
+    "round": 20
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-erz",
+    "round": 21
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-ts",
+    "round": 21
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-gfk",
+    "round": 21
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-aln",
+    "round": 21
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-fb",
+    "round": 21
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-ibfk",
+    "round": 21
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-cor",
+    "round": 21
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-eyp",
+    "round": 21
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-bjk",
+    "round": 21
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-bjk",
+    "round": 22
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-goz",
+    "round": 22
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-kon",
+    "round": 22
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-amd",
+    "round": 22
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-gfk",
+    "round": 22
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-erz",
+    "round": 22
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-ibfk",
+    "round": 22
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-kas",
+    "round": 22
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-fb",
+    "round": 22
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-riz",
+    "round": 23
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-fb",
+    "round": 23
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-sam",
+    "round": 23
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-amd",
+    "round": 23
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-aln",
+    "round": 23
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-eyp",
+    "round": 23
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-gb",
+    "round": 23
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-cor",
+    "round": 23
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-erz",
+    "round": 23
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-gs",
+    "round": 24
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-fb",
+    "round": 24
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-koc",
+    "round": 24
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-gb",
+    "round": 24
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-kas",
+    "round": 24
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-bjk",
+    "round": 24
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-kon",
+    "round": 24
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-amd",
+    "round": 24
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-cor",
+    "round": 24
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-eyp",
+    "round": 25
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-gb",
+    "round": 25
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-sam",
+    "round": 25
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-bjk",
+    "round": 25
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-aln",
+    "round": 25
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-amd",
+    "round": 25
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-riz",
+    "round": 25
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-kas",
+    "round": 25
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-cor",
+    "round": 25
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-gs",
+    "round": 26
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-sam",
+    "round": 26
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-amd",
+    "round": 26
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-ibfk",
+    "round": 26
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-kon",
+    "round": 26
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-riz",
+    "round": 26
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-koc",
+    "round": 26
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-erz",
+    "round": 26
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-eyp",
+    "round": 26
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-gs",
+    "round": 27
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-erz",
+    "round": 27
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-eyp",
+    "round": 27
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-sam",
+    "round": 27
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-cor",
+    "round": 27
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-ibfk",
+    "round": 27
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-kon",
+    "round": 27
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-gfk",
+    "round": 27
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-koc",
+    "round": 27
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-gs",
+    "round": 28
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-fb",
+    "round": 28
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-goz",
+    "round": 28
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-sam",
+    "round": 28
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-kas",
+    "round": 28
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-aln",
+    "round": 28
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-ts",
+    "round": 28
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-erz",
+    "round": 28
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-cor",
+    "round": 28
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-gs",
+    "round": 29
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-eyp",
+    "round": 29
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-gb",
+    "round": 29
+   },
+   {
+    "home": "tr-kon",
+    "away": "tr-bjk",
+    "round": 29
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-amd",
+    "round": 29
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-ibfk",
+    "round": 29
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-fb",
+    "round": 29
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-riz",
+    "round": 29
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-erz",
+    "round": 29
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-gs",
+    "round": 30
+   },
+   {
+    "home": "tr-ts",
+    "away": "tr-amd",
+    "round": 30
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-riz",
+    "round": 30
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-koc",
+    "round": 30
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-erz",
+    "round": 30
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-eyp",
+    "round": 30
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-kas",
+    "round": 30
+   },
+   {
+    "home": "tr-gb",
+    "away": "tr-bjk",
+    "round": 30
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-kon",
+    "round": 30
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-gs",
+    "round": 31
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-gfk",
+    "round": 31
+   },
+   {
+    "home": "tr-ibfk",
+    "away": "tr-ts",
+    "round": 31
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-riz",
+    "round": 31
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-kon",
+    "round": 31
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-eyp",
+    "round": 31
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-gb",
+    "round": 31
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-goz",
+    "round": 31
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-aln",
+    "round": 31
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-gs",
+    "round": 32
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-gfk",
+    "round": 32
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-ts",
+    "round": 32
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-ibfk",
+    "round": 32
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-goz",
+    "round": 32
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-eyp",
+    "round": 32
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-gb",
+    "round": 32
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-amd",
+    "round": 32
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-kon",
+    "round": 32
+   },
+   {
+    "home": "tr-gs",
+    "away": "tr-ts",
+    "round": 33
+   },
+   {
+    "home": "tr-kas",
+    "away": "tr-gfk",
+    "round": 33
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-koc",
+    "round": 33
+   },
+   {
+    "home": "tr-riz",
+    "away": "tr-gb",
+    "round": 33
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-bjk",
+    "round": 33
+   },
+   {
+    "home": "tr-fb",
+    "away": "tr-ibfk",
+    "round": 33
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-kon",
+    "round": 33
+   },
+   {
+    "home": "tr-sam",
+    "away": "tr-aln",
+    "round": 33
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-goz",
+    "round": 33
+   },
+   {
+    "home": "tr-gfk",
+    "away": "tr-gs",
+    "round": 34
+   },
+   {
+    "home": "tr-bjk",
+    "away": "tr-fb",
+    "round": 34
+   },
+   {
+    "home": "tr-erz",
+    "away": "tr-ts",
+    "round": 34
+   },
+   {
+    "home": "tr-cor",
+    "away": "tr-ibfk",
+    "round": 34
+   },
+   {
+    "home": "tr-goz",
+    "away": "tr-sam",
+    "round": 34
+   },
+   {
+    "home": "tr-aln",
+    "away": "tr-kon",
+    "round": 34
+   },
+   {
+    "home": "tr-koc",
+    "away": "tr-kas",
+    "round": 34
+   },
+   {
+    "home": "tr-amd",
+    "away": "tr-riz",
+    "round": 34
+   },
+   {
+    "home": "tr-eyp",
+    "away": "tr-gb",
+    "round": 34
+   }
+  ]
+ }
+}

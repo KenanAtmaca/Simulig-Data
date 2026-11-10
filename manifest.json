@@ -1,0 +1,10 @@
+{
+ "version": 2026111013,
+ "generatedAt": "2026-11-10T11:30:51Z",
+ "season": "2026-27",
+ "superLigWeek": 11,
+ "files": {
+  "teams.json": "961c6f50fbe91ddd0a1466bf8d25e2948d2b39167660f686577e3c925c56439b",
+  "season-tr-superlig.json": "bc373e9111ea55aa22e4430e70d95ebf577eaa698c2d07cde65e8d3d8b8b38a8"
+ }
+}

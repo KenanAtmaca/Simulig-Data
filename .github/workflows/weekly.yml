@@ -1,0 +1,53 @@
+name: Weekly data update
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"   # every Monday 06:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: weekly-data-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: Check out
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Run the pipeline
+        # Exits non-zero (and writes nothing) if a download, a step or a validation fails.
+        run: python scripts/update_all.py --out . --work "$RUNNER_TEMP/simulig-work"
+
+      - name: Keep the log
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: update-log
+          path: ${{ runner.temp }}/simulig-work/update.log
+          if-no-files-found: ignore
+          retention-days: 30
+
+      - name: Commit and push if the data changed
+        run: |
+          if [ -z "$(git status --porcelain -- teams.json season-tr-superlig.json manifest.json)" ]; then
+            echo "No data changes."
+            exit 0
+          fi
+          WEEK=$(python -c "import json; print(json.load(open('manifest.json'))['superLigWeek'])")
+          VERSION=$(python -c "import json; print(json.load(open('manifest.json'))['version'])")
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add teams.json season-tr-superlig.json manifest.json
+          git commit -m "Veri güncellemesi ${VERSION} (Süper Lig ${WEEK}. hafta)"
+          git push
