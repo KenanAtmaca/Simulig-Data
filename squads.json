@@ -1,6 +1,6 @@
 {
- "version": 2026111016,
- "generatedAt": "2026-11-10T16:17:52Z",
+ "version": 2026111614,
+ "generatedAt": "2026-11-16T14:12:05Z",
  "teams": {
   "tr-aln": [
    {
@@ -5830,6 +5830,11 @@
     "name": "Txus Vizcay",
     "number": 34,
     "position": "FW"
+   },
+   {
+    "name": "Aritz Conde",
+    "number": 35,
+    "position": "FW"
    }
   ],
   "esp-atm": [
@@ -6255,6 +6260,11 @@
     "position": "GK"
    },
    {
+    "name": "Marcos González",
+    "number": 40,
+    "position": "GK"
+   },
+   {
     "name": "Carl Starfelt",
     "number": 2,
     "position": "DF"
@@ -6308,6 +6318,11 @@
    {
     "name": "Quique Ribes",
     "number": 27,
+    "position": "DF"
+   },
+   {
+    "name": "Germain Milla",
+    "number": 35,
     "position": "DF"
    },
    {
@@ -6375,6 +6390,17 @@
     "name": "Couhaib Driouech",
     "number": 24,
     "position": "FW"
+   },
+   {
+    "name": "Ángel Arcos",
+    "number": 31,
+    "position": "FW"
+   },
+   {
+    "name": "Vlad",
+    "number": 38,
+    "position": "FW",
+    "note": "on loan from Paços de Ferreira"
    },
    {
     "name": "Jones El-Abdellaoui",
@@ -7997,6 +8023,11 @@
    {
     "name": "Dani Raba",
     "number": 19,
+    "position": "FW"
+   },
+   {
+    "name": "Sergi Canós",
+    "number": null,
     "position": "FW"
    }
   ],
@@ -11473,11 +11504,6 @@
     "position": "DF"
    },
    {
-    "name": "Konrad Laimer",
-    "number": 27,
-    "position": "DF"
-   },
-   {
     "name": "Josip Stanišić",
     "number": 44,
     "position": "DF"
@@ -11496,6 +11522,11 @@
    {
     "name": "Jamal Musiala",
     "number": 10,
+    "position": "MF"
+   },
+   {
+    "name": "Konrad Laimer",
+    "number": 27,
     "position": "MF"
    },
    {
@@ -12613,11 +12644,6 @@
     "position": "DF"
    },
    {
-    "name": "Lucas Vázquez",
-    "number": 17,
-    "position": "DF"
-   },
-   {
     "name": "Guéla Doué",
     "number": 20,
     "position": "DF"
@@ -12635,11 +12661,6 @@
    {
     "name": "Robert Andrich",
     "number": 8,
-    "position": "MF"
-   },
-   {
-    "name": "Malik Tillman",
-    "number": 10,
     "position": "MF"
    },
    {
@@ -12668,6 +12689,11 @@
     "position": "FW"
    },
    {
+    "name": "Malik Tillman",
+    "number": 10,
+    "position": "FW"
+   },
+   {
     "name": "Martin Terrier",
     "number": 11,
     "position": "FW"
@@ -12675,6 +12701,11 @@
    {
     "name": "Patrik Schick",
     "number": 14,
+    "position": "FW"
+   },
+   {
+    "name": "Lucas Vázquez",
+    "number": 17,
     "position": "FW"
    },
    {
@@ -19097,7 +19128,7 @@
     "position": "DF"
    },
    {
-    "name": "Gu Costa",
+    "name": "Gustavo Costa",
     "number": 57,
     "position": "DF"
    },
@@ -22109,7 +22140,7 @@
    },
    {
     "name": "Cem Bagci",
-    "number": null,
+    "number": 76,
     "position": "GK"
    },
    {
@@ -22307,6 +22338,11 @@
     "position": "DF"
    },
    {
+    "name": "Burak Çelik",
+    "number": null,
+    "position": "DF"
+   },
+   {
     "name": "Şahverdi Çetin",
     "number": 7,
     "position": "MF"
@@ -22349,6 +22385,11 @@
     "note": "on loan from Widzew Łódź"
    },
    {
+    "name": "Abdullah Aydın",
+    "number": null,
+    "position": "MF"
+   },
+   {
     "name": "Olarenwaju Kayode",
     "number": 9,
     "position": "FW"
@@ -22359,7 +22400,7 @@
     "position": "FW"
    },
    {
-    "name": "Osman Yildirim",
+    "name": "Osman Yıldırım",
     "number": 45,
     "position": "FW"
    },
@@ -23336,11 +23377,6 @@
     "position": "MF"
    },
    {
-    "name": "Emre Şimşek",
-    "number": 77,
-    "position": "MF"
-   },
-   {
     "name": "İdris Furat",
     "number": 91,
     "position": "MF",
@@ -23352,7 +23388,7 @@
     "position": "FW"
    },
    {
-    "name": "Poyraz Yıldırım",
+    "name": "Poyraz Efe Yıldırım",
     "number": 9,
     "position": "FW",
     "note": "on loan from Trabzonspor"
@@ -23402,18 +23438,23 @@
     "position": "GK"
    },
    {
+    "name": "Kerem Ersunar",
+    "number": 23,
+    "position": "GK"
+   },
+   {
     "name": "Cihan Topaloğlu",
     "number": 35,
     "position": "GK"
    },
    {
-    "name": "Onur Yıldırım",
-    "number": 99,
-    "position": "GK"
-   },
-   {
     "name": "Mustafa Eser",
     "number": 4,
+    "position": "DF"
+   },
+   {
+    "name": "Murat Alas",
+    "number": 15,
     "position": "DF"
    },
    {
@@ -23428,6 +23469,12 @@
     "note": "captain"
    },
    {
+    "name": "Yiğit Yasin Yüksel",
+    "number": 51,
+    "position": "DF",
+    "note": "on loan from Beşiktaş"
+   },
+   {
     "name": "Burak Öksüz",
     "number": 53,
     "position": "DF"
@@ -23435,6 +23482,11 @@
    {
     "name": "Mustafa Kartal",
     "number": 58,
+    "position": "DF"
+   },
+   {
+    "name": "Yunus Emre Yılmaz",
+    "number": 59,
     "position": "DF"
    },
    {
@@ -23448,13 +23500,18 @@
     "position": "DF"
    },
    {
+    "name": "Yağız Can",
+    "number": 75,
+    "position": "DF"
+   },
+   {
     "name": "Emre Gedik",
     "number": 88,
     "position": "DF"
    },
    {
-    "name": "Kubilay Aktaş",
-    "number": 5,
+    "name": "David Chisom Otugo",
+    "number": 6,
     "position": "MF"
    },
    {
@@ -23489,8 +23546,13 @@
     "position": "MF"
    },
    {
-    "name": "Yusuf Şaş",
+    "name": "Yusuf Deniz Şaş",
     "number": 30,
+    "position": "MF"
+   },
+   {
+    "name": "Abdulkadir Parmak",
+    "number": 61,
     "position": "MF"
    },
    {
@@ -23510,6 +23572,11 @@
     "position": "FW"
    },
    {
+    "name": "Toheeb Adeola Kosoko",
+    "number": 12,
+    "position": "FW"
+   },
+   {
     "name": "Talha Özdemir",
     "number": 18,
     "position": "FW"
@@ -23522,6 +23589,11 @@
    {
     "name": "Deniz Aksoy",
     "number": 31,
+    "position": "FW"
+   },
+   {
+    "name": "Bengali-Fodé Koita",
+    "number": 55,
     "position": "FW"
    },
    {
@@ -23548,7 +23620,7 @@
     "position": "GK"
    },
    {
-    "name": "Joseph Attamah",
+    "name": "Joseph Larweh Attamah",
     "number": 3,
     "position": "DF"
    },
@@ -23573,7 +23645,7 @@
     "position": "DF"
    },
    {
-    "name": "Hasan Kayalı",
+    "name": "Hasan Berat Kayalı",
     "number": 35,
     "position": "DF"
    },
@@ -23605,17 +23677,19 @@
    {
     "name": "Yağız Şen",
     "number": 19,
-    "position": "MF"
+    "position": "MF",
+    "note": "on loan from Fenerbahçe"
    },
    {
-    "name": "Mahmut Yücel",
+    "name": "Mahmut Celal Yücel",
     "number": 27,
     "position": "MF"
    },
    {
     "name": "Hasan Emre Yeşilyurt",
     "number": 28,
-    "position": "MF"
+    "position": "MF",
+    "note": "on loan from Çorum"
    },
    {
     "name": "Furkan Gedik",
@@ -23655,6 +23729,12 @@
    {
     "name": "Eren Karadağ",
     "number": 11,
+    "position": "FW",
+    "note": "on loan from Çorum"
+   },
+   {
+    "name": "Berke Sanlitürk",
+    "number": 21,
     "position": "FW"
    },
    {
@@ -23670,12 +23750,8 @@
    {
     "name": "Stann Élysée Dalo",
     "number": 99,
-    "position": "FW"
-   },
-   {
-    "name": "Berke Sanlitürk",
-    "number": null,
-    "position": "FW"
+    "position": "FW",
+    "note": "on loan from Kasımpaşa"
    }
   ],
   "tr1-van": [
@@ -23690,14 +23766,20 @@
     "position": "GK"
    },
    {
-    "name": "Çınar Benzer",
+    "name": "Çınar Tuna Benzer",
     "number": 33,
+    "position": "GK"
+   },
+   {
+    "name": "Muhammet Elyesa Çakmak",
+    "number": 39,
     "position": "GK"
    },
    {
     "name": "Kadir Seven",
     "number": 2,
-    "position": "DF"
+    "position": "DF",
+    "note": "on loan from Zulte Waregem"
    },
    {
     "name": "Şahan Aslan",
@@ -23712,6 +23794,11 @@
    {
     "name": "Naby Oularé",
     "number": 13,
+    "position": "DF"
+   },
+   {
+    "name": "Emre Aytun",
+    "number": 26,
     "position": "DF"
    },
    {
@@ -23755,7 +23842,7 @@
     "position": "MF"
    },
    {
-    "name": "Ozan Kökcü",
+    "name": "Ozan Kökçü",
     "number": 10,
     "position": "MF"
    },
@@ -23795,7 +23882,7 @@
     "position": "FW"
    },
    {
-    "name": "Alvaro de Oliveira",
+    "name": "Álvaro de Oliveira",
     "number": 9,
     "position": "FW"
    },
@@ -23807,17 +23894,20 @@
    {
     "name": "Tenton Yenne",
     "number": 15,
-    "position": "FW"
+    "position": "FW",
+    "note": "on loan from Baltika Kaliningrad"
    },
    {
     "name": "İlkan Sever",
     "number": 17,
-    "position": "FW"
+    "position": "FW",
+    "note": "on loan from Erzurumspor"
    },
    {
     "name": "Furkan Özhan",
     "number": 25,
-    "position": "FW"
+    "position": "FW",
+    "note": "on loan from Erzurumspor"
    },
    {
     "name": "Richairo Živković",
@@ -23825,7 +23915,7 @@
     "position": "FW"
    },
    {
-    "name": "Mehmet Davarcıoğlu",
+    "name": "Mehmet Can Davarcıoğlu",
     "number": 46,
     "position": "FW"
    },
@@ -23999,6 +24089,11 @@
     "position": "GK"
    },
    {
+    "name": "Emir Dadük",
+    "number": 78,
+    "position": "GK"
+   },
+   {
     "name": "Utku Yuvakuran",
     "number": 97,
     "position": "GK"
@@ -24102,7 +24197,8 @@
    {
     "name": "Burak Gültekin",
     "number": 93,
-    "position": "MF"
+    "position": "MF",
+    "note": "on loan from Kasımpaşa"
    },
    {
     "name": "Emrah Başsan",
@@ -24376,6 +24472,11 @@
     "position": "MF"
    },
    {
+    "name": "Kerem Atakan Kesgin",
+    "number": 60,
+    "position": "MF"
+   },
+   {
     "name": "Oğuzhan Aksoy",
     "number": 66,
     "position": "MF"
@@ -24383,6 +24484,11 @@
    {
     "name": "Savaş Ala",
     "number": 92,
+    "position": "MF"
+   },
+   {
+    "name": "Sinan Kaya",
+    "number": null,
     "position": "MF"
    },
    {

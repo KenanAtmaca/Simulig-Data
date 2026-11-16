@@ -1,5 +1,5 @@
 {
- "version": 2026111016,
+ "version": 2026111614,
  "competitions": [
   {
    "id": "tr-superlig",
@@ -29,7 +29,7 @@
     "gd",
     "gf"
    ],
-   "goalFactor": 1.039
+   "goalFactor": 1.042
   },
   {
    "id": "eng-premier",
@@ -97,7 +97,7 @@
    "short": "Fransa",
    "format": "league",
    "teams": 18,
-   "goalFactor": 1.095,
+   "goalFactor": 1.094,
    "tiebreak": [
     "pts",
     "gd",
@@ -127,7 +127,7 @@
    "short": "Portekiz",
    "format": "league",
    "teams": 18,
-   "goalFactor": 1.018,
+   "goalFactor": 1.017,
    "tiebreak": [
     "pts",
     "h2hPts",
@@ -1740,7 +1740,7 @@
    "country": "FR",
    "competition": "fra-ligue1",
    "kind": "club",
-   "attack": 66,
+   "attack": 67,
    "defence": 72,
    "colors": [
     "#0055A4",
@@ -2007,7 +2007,7 @@
    "competition": "por-liga",
    "kind": "club",
    "attack": 68,
-   "defence": 68,
+   "defence": 67,
    "colors": [
     "#111111",
     "#FFFFFF"
@@ -2469,7 +2469,7 @@
    "competition": "tr-1lig",
    "kind": "club",
    "attack": 59,
-   "defence": 62,
+   "defence": 63,
    "colors": [
     "#E30613",
     "#FFFFFF"
@@ -2566,7 +2566,7 @@
    "country": "GB",
    "competition": "national",
    "kind": "national",
-   "attack": 91,
+   "attack": 90,
    "defence": 84,
    "colors": [
     "#FFFFFF",
@@ -2622,7 +2622,7 @@
    "country": "DE",
    "competition": "national",
    "kind": "national",
-   "attack": 88,
+   "attack": 87,
    "defence": 80,
    "colors": [
     "#FFFFFF",
@@ -2706,7 +2706,7 @@
    "country": "TR",
    "competition": "national",
    "kind": "national",
-   "attack": 79,
+   "attack": 78,
    "defence": 69,
    "colors": [
     "#E30A17",
@@ -2903,7 +2903,7 @@
    "competition": "national",
    "kind": "national",
    "attack": 69,
-   "defence": 73,
+   "defence": 72,
    "colors": [
     "#C6363C",
     "#0C4076"
@@ -2917,7 +2917,7 @@
    "competition": "national",
    "kind": "national",
    "attack": 80,
-   "defence": 67,
+   "defence": 66,
    "colors": [
     "#FECC00",
     "#006AA7"
@@ -3014,7 +3014,7 @@
    "country": "CA",
    "competition": "national",
    "kind": "national",
-   "attack": 75,
+   "attack": 76,
    "defence": 77,
    "colors": [
     "#FF0000",
@@ -3057,7 +3057,7 @@
    "competition": "national",
    "kind": "national",
    "attack": 74,
-   "defence": 83,
+   "defence": 82,
    "colors": [
     "#F77F00",
     "#009E60"
@@ -3084,7 +3084,7 @@
    "country": "CM",
    "competition": "national",
    "kind": "national",
-   "attack": 70,
+   "attack": 69,
    "defence": 76,
    "colors": [
     "#007A5E",
@@ -3182,8 +3182,8 @@
    "country": "PA",
    "competition": "national",
    "kind": "national",
-   "attack": 72,
-   "defence": 69,
+   "attack": 71,
+   "defence": 70,
    "colors": [
     "#DA121A",
     "#072357"
@@ -3196,7 +3196,7 @@
    "country": "NZ",
    "competition": "national",
    "kind": "national",
-   "attack": 76,
+   "attack": 77,
    "defence": 64,
    "colors": [
     "#FFFFFF",
@@ -3224,7 +3224,7 @@
    "country": "GR",
    "competition": "national",
    "kind": "national",
-   "attack": 76,
+   "attack": 77,
    "defence": 80,
    "colors": [
     "#0D5EAF",
@@ -3238,7 +3238,7 @@
    "country": "SK",
    "competition": "national",
    "kind": "national",
-   "attack": 71,
+   "attack": 70,
    "defence": 70,
    "colors": [
     "#0B4EA2",
@@ -3252,7 +3252,7 @@
    "country": "RO",
    "competition": "national",
    "kind": "national",
-   "attack": 69,
+   "attack": 70,
    "defence": 64,
    "colors": [
     "#FCD116",
